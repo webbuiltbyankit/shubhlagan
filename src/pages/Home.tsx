@@ -161,21 +161,24 @@ export const Home: React.FC = () => {
                 }}
               >
                 <Link to="/product/yellow-fandy-saree-for-women-shl-0001" style={{ display: 'block', position: 'relative', overflow: 'hidden', borderRadius: '4px' }}>
-                  <img
-                    src={getAssetUrl('/images/products/SHL-0001_main.jpg')}
-                    alt="Yellow Fandy Saree with embroidered border — SHL-0001"
-                    loading="eager"
-                    // @ts-expect-error modern browser priority hint
-                    fetchpriority="high"
-                    decoding="async"
-                    style={{
-                      width: '100%',
-                      maxHeight: '520px',
-                      objectFit: 'cover',
-                      objectPosition: 'center top',
-                      borderRadius: '4px'
-                    }}
-                  />
+                  <picture>
+                    <source srcSet={getAssetUrl('/images/products/SHL-0001_main.webp')} type="image/webp" />
+                    <img
+                      src={getAssetUrl('/images/products/SHL-0001_main.jpg')}
+                      alt="Yellow Fandy Saree with embroidered border — SHL-0001"
+                      loading="eager"
+                      // @ts-expect-error modern browser priority hint
+                      fetchpriority="high"
+                      decoding="async"
+                      style={{
+                        width: '100%',
+                        maxHeight: '520px',
+                        objectFit: 'cover',
+                        objectPosition: 'center top',
+                        borderRadius: '4px'
+                      }}
+                    />
+                  </picture>
                   <div
                     style={{
                       position: 'absolute',
@@ -288,18 +291,21 @@ export const Home: React.FC = () => {
                 className="category-card"
               >
                 <div style={{ aspectRatio: '4 / 3', width: '100%', overflow: 'hidden', backgroundColor: '#F5EFEB' }}>
-                  <img
-                    src={cat.coverImage}
-                    alt={cat.title}
-                    loading="lazy"
-                    decoding="async"
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                      transition: 'transform 300ms ease'
-                    }}
-                  />
+                  <picture>
+                    <source srcSet={cat.coverImage.replace(/\.jpg$/, '.webp')} type="image/webp" />
+                    <img
+                      src={cat.coverImage}
+                      alt={cat.title}
+                      loading="lazy"
+                      decoding="async"
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        transition: 'transform 300ms ease'
+                      }}
+                    />
+                  </picture>
                 </div>
                 <div style={{ padding: '16px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>

@@ -156,11 +156,18 @@ export const ProductDetail: React.FC = () => {
                 marginBottom: '16px'
               }}
             >
-              <img
-                src={product.images[selectedImageIndex]}
-                alt={`${product.name} - drape view ${selectedImageIndex + 1}`}
-                style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center top' }}
-              />
+              <picture style={{ width: '100%', height: '100%', display: 'block' }}>
+                <source srcSet={product.images[selectedImageIndex].replace(/\.jpg$/, '.webp')} type="image/webp" />
+                <img
+                  src={product.images[selectedImageIndex]}
+                  alt={`${product.name} - drape view ${selectedImageIndex + 1}`}
+                  loading="eager"
+                  // @ts-expect-error modern browser priority hint
+                  fetchpriority="high"
+                  decoding="async"
+                  style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center top' }}
+                />
+              </picture>
 
               {/* Previous / Next Chevron Buttons */}
               <button

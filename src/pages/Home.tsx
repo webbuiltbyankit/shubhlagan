@@ -164,6 +164,10 @@ export const Home: React.FC = () => {
                   <img
                     src={getAssetUrl('/images/products/SHL-0001_main.jpg')}
                     alt="Yellow Fandy Saree with embroidered border — SHL-0001"
+                    loading="eager"
+                    // @ts-expect-error modern browser priority hint
+                    fetchpriority="high"
+                    decoding="async"
                     style={{
                       width: '100%',
                       maxHeight: '520px',
@@ -287,6 +291,8 @@ export const Home: React.FC = () => {
                   <img
                     src={cat.coverImage}
                     alt={cat.title}
+                    loading="lazy"
+                    decoding="async"
                     style={{
                       width: '100%',
                       height: '100%',

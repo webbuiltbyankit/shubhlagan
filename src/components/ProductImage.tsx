@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ImageOff } from 'lucide-react';
 
 interface ProductImageProps {
@@ -22,6 +22,14 @@ export const ProductImage: React.FC<ProductImageProps> = ({
 }) => {
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [shouldLoadSecondary, setShouldLoadSecondary] = useState(false);
+
+  // Lazy-mount secondary image only after user hovers/interacts, preventing 34 concurrent image downloads
+  useEffect(() => {
+    if (isHovered && !shouldLoadSecondary) {
+      setShouldLoadSecondary(true);
+    }
+  }, [isHovered, shouldLoadSecondary]);
 
   return (
     <div
@@ -61,6 +69,9 @@ export const ProductImage: React.FC<ProductImageProps> = ({
             src={src}
             alt={alt}
             loading={priority ? 'eager' : 'lazy'}
+            // @ts-expect-error fetchpriority attribute is supported in modern browsers
+            fetchpriority={priority ? 'high' : 'low'}
+            decoding="async"
             onLoad={() => setIsLoaded(true)}
             onError={() => setHasError(true)}
             style={{
@@ -71,14 +82,15 @@ export const ProductImage: React.FC<ProductImageProps> = ({
               objectFit: 'cover',
               objectPosition: 'center top',
               transition: 'opacity 220ms ease, transform 300ms ease',
-              opacity: isLoaded ? (isHovered && secondarySrc ? 0 : 1) : 0.85
+              opacity: isLoaded ? (isHovered && secondarySrc && shouldLoadSecondary ? 0 : 1) : 0.85
             }}
           />
-          {secondarySrc && (
+          {secondarySrc && shouldLoadSecondary && (
             <img
               src={secondarySrc}
               alt={`${alt} alternate view`}
               loading="lazy"
+              decoding="async"
               style={{
                 position: 'absolute',
                 inset: 0,
@@ -97,4 +109,5 @@ export const ProductImage: React.FC<ProductImageProps> = ({
     </div>
   );
 };
+
 

@@ -297,7 +297,7 @@ export const Home: React.FC = () => {
                     <img
                       src={cat.coverImage}
                       alt={cat.title}
-                      loading="lazy"
+                      loading="eager"
                       decoding="async"
                       style={{
                         display: 'block',
@@ -347,7 +347,7 @@ export const Home: React.FC = () => {
             }}
           >
             {featuredSkus.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} priority={true} />
             ))}
           </div>
         </div>

@@ -372,8 +372,8 @@ export const Shop: React.FC = () => {
                   gap: '24px'
                 }}
               >
-                {filteredProducts.map((p) => (
-                  <ProductCard key={p.id} product={p} />
+                {filteredProducts.map((p, idx) => (
+                  <ProductCard key={p.id} product={p} priority={idx < 6} />
                 ))}
               </div>
             )}

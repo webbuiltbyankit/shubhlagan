@@ -88,6 +88,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
     onClose();
   };
 
+  if (!isOpen) return null;
+
   return (
     <div
       style={{

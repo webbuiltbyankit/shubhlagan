@@ -10,3 +10,4 @@ downloaded_assets/
 pure_cloth_crops/
 test_thumbs/
 *.log
+.vercel

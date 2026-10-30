@@ -1,6 +1,15 @@
 import rawCatalog from '../data/catalog.json';
 import { Product, FabricCategory, CategoryMetadata, SortOption } from '../types';
 
+export function getAssetUrl(path: string): string {
+  if (!path) return '';
+  if (path.startsWith('http://') || path.startsWith('https://')) return path;
+  const base = import.meta.env.BASE_URL || '/';
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  const cleanBase = base.endsWith('/') ? base : `${base}/`;
+  return `${cleanBase}${cleanPath}`;
+}
+
 export const products: Product[] = (rawCatalog as any[]).map((item) => ({
   id: item.id,
   name: item.name,
@@ -23,8 +32,8 @@ export const products: Product[] = (rawCatalog as any[]).map((item) => ({
   careInstructions: item.careInstructions || 'Dry Clean Only recommended',
   description: item.description || '',
   availability: item.availability || 'in_stock',
-  images: [item.images[0], item.images[1]] as [string, string],
-  thumbnail: item.thumbnail || item.images[0],
+  images: [getAssetUrl(item.images[0]), getAssetUrl(item.images[1])] as [string, string],
+  thumbnail: getAssetUrl(item.thumbnail || item.images[0]),
   inStock: item.inStock ?? true,
   badge: item.badge || null,
   sourcePost: item.sourcePost || '',
@@ -53,42 +62,42 @@ export const CATEGORY_DEFINITIONS: { name: FabricCategory; slug: string; title: 
     name: 'Fandy Sarees',
     slug: 'fandy-sarees',
     title: 'Fandy Sarees',
-    cover: '/images/collections/fandy_sarees_cover.jpg',
+    cover: getAssetUrl('/images/collections/fandy_sarees_cover.jpg'),
     description: 'Textured surfaces and rich celebratory embroidery crafted for timeless festive wear.'
   },
   {
     name: 'Georgette Sarees',
     slug: 'georgette-sarees',
     title: 'Georgette Sarees',
-    cover: '/images/collections/georgette_sarees_cover.jpg',
+    cover: getAssetUrl('/images/collections/georgette_sarees_cover.jpg'),
     description: 'Lightweight fluid silhouettes that flow with graceful movement and modern poise.'
   },
   {
     name: 'Silk Sarees',
     slug: 'silk-sarees',
     title: 'Silk Sarees',
-    cover: '/images/collections/silk_sarees_cover.jpg',
+    cover: getAssetUrl('/images/collections/silk_sarees_cover.jpg'),
     description: 'Lustrous, heirloom drapes with classic woven motifs and dignified sheen.'
   },
   {
     name: 'Chiffon Sarees',
     slug: 'chiffon-sarees',
     title: 'Chiffon Sarees',
-    cover: '/images/collections/chiffon_sarees_cover.jpg',
+    cover: getAssetUrl('/images/collections/chiffon_sarees_cover.jpg'),
     description: 'Delicate, airy, gossamer textures for effortless day-to-evening dressing.'
   },
   {
     name: 'Chinon Sarees',
     slug: 'chinon-sarees',
     title: 'Chinon Sarees',
-    cover: '/images/collections/chinon_sarees_cover.jpg',
+    cover: getAssetUrl('/images/collections/chinon_sarees_cover.jpg'),
     description: 'Subtle sheen with fine crepe drape, ideal for refined celebratory ensembles.'
   },
   {
     name: 'Crepe Sarees',
     slug: 'crepe-sarees',
     title: 'Crepe Sarees',
-    cover: '/images/collections/crepe_sarees_cover.jpg',
+    cover: getAssetUrl('/images/collections/crepe_sarees_cover.jpg'),
     description: 'Crisp structured drape with modern aesthetic lines and graceful fall.'
   }
 ];

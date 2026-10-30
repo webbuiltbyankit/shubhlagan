@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { X, ChevronRight, Sparkles } from 'lucide-react';
-import { getCategories } from '../lib/catalog';
+import { getCategories, getAssetUrl } from '../lib/catalog';
 import { contentConfig } from '../lib/contentConfig';
 
 interface MobileDrawerProps {
@@ -74,7 +74,7 @@ export const MobileDrawer: React.FC<MobileDrawerProps> = ({ isOpen, onClose, onO
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <img
-              src="/brand/profile_logo_900.jpg"
+              src={getAssetUrl('/brand/profile_logo_900.jpg')}
               alt="Shubhlagn Logo"
               style={{ width: '36px', height: '36px', borderRadius: '4px', objectFit: 'cover' }}
             />

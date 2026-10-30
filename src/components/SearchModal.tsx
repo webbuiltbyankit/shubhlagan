@@ -135,14 +135,15 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search by saree name, fabric, color, or SKU (e.g., Georgette, Yellow, SHL-0001)..."
+            placeholder="Search by saree, fabric, color, or SKU..."
             style={{
               flex: 1,
               border: 'none',
               outline: 'none',
               fontSize: '1rem',
               color: 'var(--color-text-main)',
-              fontFamily: 'inherit'
+              fontFamily: 'inherit',
+              minWidth: 0
             }}
           />
           {query && (
@@ -150,7 +151,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
               type="button"
               onClick={() => setQuery('')}
               aria-label="Clear query"
-              style={{ color: 'var(--color-text-light)' }}
+              style={{ color: 'var(--color-text-light)', padding: '4px' }}
             >
               <X size={18} />
             </button>
@@ -162,12 +163,19 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
             style={{
               padding: '6px 12px',
               fontSize: '0.82rem',
-              color: 'var(--color-text-muted)',
-              borderLeft: '1px solid var(--color-border)',
-              marginLeft: '4px'
+              color: 'var(--color-text-main)',
+              backgroundColor: 'var(--color-surface-subtle)',
+              border: '1px solid var(--color-border)',
+              borderRadius: '4px',
+              marginLeft: '4px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '4px',
+              cursor: 'pointer'
             }}
           >
-            Esc
+            <X size={16} />
+            <span>Close</span>
           </button>
         </form>
 

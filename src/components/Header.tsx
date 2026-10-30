@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Search, Heart, ShoppingBag, Menu, ChevronDown, Sparkles } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
-import { getCategories } from '../lib/catalog';
+import { getCategories, getAssetUrl } from '../lib/catalog';
 import { contentConfig } from '../lib/contentConfig';
 import { SearchModal } from './SearchModal';
 import { MobileDrawer } from './MobileDrawer';
@@ -113,7 +113,7 @@ export const Header: React.FC = () => {
               }}
             >
               <img
-                src="/brand/profile_logo_900.jpg"
+                src={getAssetUrl('/brand/profile_logo_900.jpg')}
                 alt="Shubhlagn Sarees Identity"
                 className="header-brand-logo"
                 style={{

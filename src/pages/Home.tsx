@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Sparkles, Feather, Bookmark, Compass, Check } from 'lucide-react';
-import { getCategories, getProductById } from '../lib/catalog';
+import { getCategories, getProductById, getAssetUrl } from '../lib/catalog';
 import { SectionHeading } from '../components/SectionHeading';
 import { ProductCard } from '../components/ProductCard';
 
@@ -162,7 +162,7 @@ export const Home: React.FC = () => {
               >
                 <Link to="/product/yellow-fandy-saree-for-women-shl-0001" style={{ display: 'block', position: 'relative', overflow: 'hidden', borderRadius: '4px' }}>
                   <img
-                    src="/images/products/SHL-0001_main.jpg"
+                    src={getAssetUrl('/images/products/SHL-0001_main.jpg')}
                     alt="Yellow Fandy Saree with embroidered border — SHL-0001"
                     style={{
                       width: '100%',
@@ -396,7 +396,7 @@ export const Home: React.FC = () => {
                 }}
               >
                 <img
-                  src="/images/products/SHL-0004_gallery_02.jpg"
+                  src={getAssetUrl('/images/products/SHL-0004_gallery_02.jpg')}
                   alt="Fine textile embroidery close-up view"
                   style={{ width: '100%', height: '480px', objectFit: 'cover' }}
                 />

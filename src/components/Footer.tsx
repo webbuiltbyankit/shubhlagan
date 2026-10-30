@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronDown, ExternalLink, ShieldCheck } from 'lucide-react';
 import { InstagramIcon } from './icons/InstagramIcon';
-import { getCategories } from '../lib/catalog';
+import { getCategories, getAssetUrl } from '../lib/catalog';
 import { contentConfig } from '../lib/contentConfig';
 
 export const Footer: React.FC = () => {
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
           <div style={{ maxWidth: '320px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
               <img
-                src="/brand/profile_logo_900.jpg"
+                src={getAssetUrl('/brand/profile_logo_900.jpg')}
                 alt="Shubhlagn Sarees"
                 style={{ width: '40px', height: '40px', borderRadius: '4px', objectFit: 'cover' }}
               />

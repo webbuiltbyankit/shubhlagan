@@ -273,8 +273,10 @@ export const ProductDetail: React.FC = () => {
                   }}
                 >
                   <img
-                    src={imgSrc}
+                    src={imgSrc.replace('/images/products/', '/images/thumbnails/').replace(/\.jpg$/, '_thumb.webp')}
                     alt={`Thumbnail ${idx + 1}`}
+                    loading="lazy"
+                    decoding="async"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </button>
@@ -607,7 +609,13 @@ export const ProductDetail: React.FC = () => {
                     opacity: selectedImageIndex === idx ? 1 : 0.6
                   }}
                 >
-                  <img src={imgSrc} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img
+                    src={imgSrc.replace('/images/products/', '/images/thumbnails/').replace(/\.jpg$/, '_thumb.webp')}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
                 </button>
               ))}
             </div>

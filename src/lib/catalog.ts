@@ -33,7 +33,7 @@ export const products: Product[] = (rawCatalog as any[]).map((item) => ({
   description: item.description || '',
   availability: item.availability || 'in_stock',
   images: [getAssetUrl(item.images[0]), getAssetUrl(item.images[1])] as [string, string],
-  thumbnail: getAssetUrl(item.thumbnail || item.images[0]),
+  thumbnail: getAssetUrl(`/images/thumbnails/${item.id}_main_thumb.webp`),
   inStock: item.inStock ?? true,
   badge: item.badge || null,
   sourcePost: item.sourcePost || '',

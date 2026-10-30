@@ -4,6 +4,7 @@ import { ToastProvider } from './context/ToastContext';
 import { WishlistProvider } from './context/WishlistContext';
 import { CartProvider } from './context/CartContext';
 import { Layout } from './components/Layout';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 // Eager load all routes for instantaneous, zero-delay navigation without spinners
 import { Home } from './pages/Home';
@@ -28,8 +29,9 @@ export const App: React.FC = () => {
     <ToastProvider>
       <WishlistProvider>
         <CartProvider>
-          <HashRouter>
-            <Routes>
+          <ErrorBoundary>
+            <HashRouter>
+              <Routes>
               <Route path="/" element={<Layout />}>
                 <Route index element={<Home />} />
                 <Route path="shop" element={<Shop />} />
@@ -50,7 +52,8 @@ export const App: React.FC = () => {
               </Route>
             </Routes>
           </HashRouter>
-        </CartProvider>
+        </ErrorBoundary>
+      </CartProvider>
       </WishlistProvider>
     </ToastProvider>
   );

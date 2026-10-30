@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, X, ArrowRight } from 'lucide-react';
 import { products, getCategories } from '../lib/catalog';
@@ -28,18 +28,17 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
 
   const cleanQuery = query.toLowerCase().trim();
 
-  const matchingCategories = cleanQuery
-    ? getCategories().filter((cat) => cat.title.toLowerCase().includes(cleanQuery))
-    : [];
-
-  const matchingProducts = cleanQuery
-    ? products
-        .filter((p) => {
-          const haystack = `${p.name} ${p.id} ${p.category} ${p.fabric} ${p.primaryColor}`.toLowerCase();
-          return haystack.includes(cleanQuery);
-        })
-        .slice(0, 5)
-    : [];
+  const { matchingCategories, matchingProducts } = useMemo(() => {
+    if (!cleanQuery) return { matchingCategories: [], matchingProducts: [] };
+    const cats = getCategories().filter((cat) => cat.title.toLowerCase().includes(cleanQuery));
+    const prods = products
+      .filter((p) => {
+        const haystack = `${p.name} ${p.id} ${p.category} ${p.fabric} ${p.primaryColor}`.toLowerCase();
+        return haystack.includes(cleanQuery);
+      })
+      .slice(0, 5);
+    return { matchingCategories: cats, matchingProducts: prods };
+  }, [cleanQuery]);
 
   const totalSuggestions = matchingCategories.length + matchingProducts.length;
 

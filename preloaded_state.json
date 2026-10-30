@@ -1,0 +1,457 @@
+{
+  "base": {
+    "device": {
+      "isWebview": false,
+      "isIphone": false,
+      "isSafari": false,
+      "isBot": false,
+      "userAgent": "Mozilla/5.0",
+      "isMobile": null,
+      "isTablet": null,
+      "isModernBrowser": false,
+      "isFbBrowser": false,
+      "isInstagramBrowser": false,
+      "is_website_builder": false,
+      "isFacebookInAppBrowserOniOS": false,
+      "isInstagramInAppBrowserOniOS": false
+    },
+    "baseUrl": "http://shubhlagn.co.in",
+    "utmParams": {},
+    "offersData": {
+      "freeGiftData": {},
+      "saleData": {},
+      "couponData": null,
+      "bxgyData": null
+    },
+    "couponTrackingData": {
+      "preAppliedCouponCodes": [],
+      "appliedCouponCodes": []
+    },
+    "googleAnalytics": {
+      "googleAnalyticsType": "ad_campaign",
+      "ga4Id": "",
+      "enhancedGA": {
+        "enabled": false,
+        "gaId": "G-Z8LVP5PY0P",
+        "purchaseLabel": "",
+        "a2cLabel": "",
+        "viewItemLabel": ""
+      },
+      "gclid": ""
+    },
+    "pricingABSet": "[]",
+    "liveExperimentFeatureFlags": {
+      "pricing_ab": [],
+      "gokwik_checkout_ab": null,
+      "force_online_payment_mode": false,
+      "checkout_flow_ab": null
+    },
+    "sdSSOIPAddress": "122.161.75.179",
+    "isFeedbackMode": false,
+    "enableEddExperiment": false,
+    "enableSecurePaymentStrip": false,
+    "enableOfferBundleExperiment": false
+  },
+  "checkout": {
+    "productCustomisationDetails": null,
+    "productCustomisationProps": null,
+    "buyNowProductSKUDetails": null
+  },
+  "user": {
+    "visitorId": "f23efa2aa9444a648dbf0daacf82cf6b",
+    "isNewUser": true,
+    "sessionId": "9ba6c136-c283-4071-a5d8-ed5218d0d6ce"
+  },
+  "ui": {
+    "isBagModalVisible": false,
+    "isParallexVisible": true,
+    "isProductCustomisationModalVisible": false,
+    "isVideoPlayed": false,
+    "eddExperimentCohort": "control",
+    "prepaidExperimentCohort": "control",
+    "appliedPincode": ""
+  },
+  "website": {
+    "logo_url": "https://d1311wbk6unapo.cloudfront.net/NushopWebsiteAsset/tr:w-300,,f-webp,fo-auto/6a76ea1a0e4dca6722264569_brand_logo_1Z9Z8GAQPS_2026-08-20.jpg",
+    "manifest192x192_url": "https://d1311wbk6unapo.cloudfront.net/NushopWebsiteAsset/tr:w-192,h-192,h-48,f-webp,fo-auto/6a76ea1a0e4dca6722264569_favicon_EN9AVRLVGC_2026-08-19",
+    "favicon_url": "https://d1311wbk6unapo.cloudfront.net/NushopWebsiteAsset/tr:w-48,h-48,f-webp,fo-auto/6a76ea1a0e4dca6722264569_favicon_EN9AVRLVGC_2026-08-19",
+    "cover_url": "https://d1311wbk6unapo.cloudfront.net/NushopWebsiteAsset/tr:w-600,f-webp,fo-auto/61f2971e3c1eea8547ebc039_cover_VT8I1MBD63_2022-03-31",
+    "social_link": {
+      "fb_link": "https://www.facebook.com/profile.php?id=61593868070338",
+      "insta_link": "https://www.instagram.com/shubhlagn_sitapur/"
+    },
+    "name": "SHUBH LAGN",
+    "description": "SHUBH LAGN offers premium shawls, dupattas, sarees, scarves and dress materials. Discover elegant textiles and tapestries for every occasion.",
+    "code_snippet": "",
+    "pixel_id": "1372148888413418",
+    "pixel_ids": [
+      "1372148888413418"
+    ],
+    "google_analytics_type": "ad_campaign",
+    "gtm_code": "GTM-W4P6KPV",
+    "ga_id": "G-Z8LVP5PY0P",
+    "ga4_id": "",
+    "ga_enhanced_labels": {
+      "purchase_label": "",
+      "a2c_label": "",
+      "view_item_label": ""
+    },
+    "category_tags": [],
+    "contact_number": 9559121626,
+    "google_site_verification_code": "",
+    "billing_address": {
+      "company_name": "SHUBH LAGN",
+      "addr": "92-A/1, Ghooramau Bangla, ",
+      "city": "SITAPUR",
+      "state": "Uttar Pradesh",
+      "pincode": "261001",
+      "contact_number": "9559121626",
+      "email": "shubhlagnstp@gmail.com"
+    },
+    "email": "shubhlagnstp@gmail.com",
+    "seller_name": "Siddhartha Agarwal",
+    "sellerId": "6a76ea1a0e4dca6722264569",
+    "ui_settings": {
+      "auto_scroll_product_card": false,
+      "auto_scroll_banner_cross_link": true,
+      "show_whatsapp_connect": true,
+      "custom_loader": {
+        "enabled": false,
+        "url": ""
+      },
+      "show_swipe_up_screen": false,
+      "show_cod_charges_toast": false,
+      "image_fit": "contain",
+      "primary_color": {
+        "red": 98,
+        "green": 29,
+        "blue": 35
+      },
+      "font_family": {
+        "title1": {
+          "name": "Cormorant Garamond",
+          "weight": "700"
+        },
+        "title2": {
+          "name": "Cormorant Garamond",
+          "weight": "600"
+        },
+        "title3": {
+          "name": "Jost",
+          "weight": "500"
+        },
+        "heading": {
+          "name": "Jost",
+          "weight": "500"
+        },
+        "body": {
+          "name": "Jost",
+          "weight": "400"
+        }
+      },
+      "header_logo_type": "image",
+      "header_logo_size": "large",
+      "enable_add_to_bag_feature": "full_add_to_bag",
+      "cancel_order_variant": "soft",
+      "whatsapp_connect": {
+        "product_page": false,
+        "order_related_issue": true,
+        "post_delivery_issue": true,
+        "cta_text": "Start Chat",
+        "is_default_whatsapp_connect_text": true,
+        "sub_title": "Get in touch directly on WhatsApp!",
+        "title": "Contact Us"
+      },
+      "checkout_flow_id": "YhBPAfZl",
+      "coupon_milestone": false,
+      "external_checkout": null,
+      "product_card_add_to_bag": true,
+      "product_card_layout": "portrait",
+      "show_exit_intent": false,
+      "show_lower_rating": true,
+      "show_order_cancel": true,
+      "show_ratings_on_product_card": false,
+      "show_ratings_on_product_page": true,
+      "show_online_payment_strip": true
+    },
+    "contact_us": {
+      "call": 9559121626,
+      "whatsapp": 9559121626,
+      "contact_support_time": "24/7",
+      "email": "shubhlagnstp@gmail.com",
+      "address": "92-A/1, Ghooramau Bangla, , Uttar Pradesh, SITAPUR, 261001"
+    },
+    "swipe_up_screen": {
+      "title": "Store Name",
+      "title_alignment": "left",
+      "title_color": "white",
+      "show_title": true,
+      "show_logo": true,
+      "logo_alignment": "left",
+      "cover_url": "https://d1311wbk6unapo.cloudfront.net/NushopWebsiteAsset/tr:w-600,f-webp,fo-auto/61f2971e3c1eea8547ebc039_cover_VT8I1MBD63_2022-03-31"
+    },
+    "menu_items": [
+      {
+        "short_id": "QLbZCylZ",
+        "title": "Home",
+        "link": "/",
+        "parent_short_id": null,
+        "is_visible": true,
+        "creation_source": "agent",
+        "_id": "6a8646cd2f85aef1723f20b7",
+        "id": "6a8646cd2f85aef1723f20b7",
+        "children": []
+      },
+      {
+        "short_id": "gmg-UlbF",
+        "title": "Our Saree Collections",
+        "link": "",
+        "parent_short_id": null,
+        "is_visible": true,
+        "creation_source": "agent",
+        "_id": "6a8646cd2f85aef1723f20b8",
+        "id": "6a8646cd2f85aef1723f20b8",
+        "children": [
+          {
+            "short_id": "2VzStu87",
+            "title": "Festive Sarees",
+            "link": "/collection/C1evgDE9",
+            "parent_short_id": "gmg-UlbF",
+            "is_visible": true,
+            "creation_source": "agent",
+            "_id": "6a8646cd2f85aef1723f20b9",
+            "id": "6a8646cd2f85aef1723f20b9",
+            "children": [],
+            "parent_id": "6a8646cd2f85aef1723f20b8"
+          },
+          {
+            "short_id": "zb8Sh2g3",
+            "title": "Elegant Sarees",
+            "link": "/collection/HekkFOlM",
+            "parent_short_id": "gmg-UlbF",
+            "is_visible": true,
+            "creation_source": "agent",
+            "_id": "6a8646cd2f85aef1723f20ba",
+            "id": "6a8646cd2f85aef1723f20ba",
+            "children": [],
+            "parent_id": "6a8646cd2f85aef1723f20b8"
+          },
+          {
+            "short_id": "Ee1aXC9w",
+            "title": "Ethnic Sarees",
+            "link": "/collection/kf8pw6r4",
+            "parent_short_id": "gmg-UlbF",
+            "is_visible": true,
+            "creation_source": "agent",
+            "_id": "6a8646cd2f85aef1723f20bb",
+            "id": "6a8646cd2f85aef1723f20bb",
+            "children": [],
+            "parent_id": "6a8646cd2f85aef1723f20b8"
+          },
+          {
+            "short_id": "hNW4SmCT",
+            "title": "Vibrant Drapes",
+            "link": "/collection/biFM6OlB",
+            "parent_short_id": "gmg-UlbF",
+            "is_visible": true,
+            "creation_source": "agent",
+            "_id": "6a8646cd2f85aef1723f20bc",
+            "id": "6a8646cd2f85aef1723f20bc",
+            "children": [],
+            "parent_id": "6a8646cd2f85aef1723f20b8"
+          },
+          {
+            "short_id": "9tmJ4Rid",
+            "title": "Flowing Sarees",
+            "link": "/collection/lRInyWXh",
+            "parent_short_id": "gmg-UlbF",
+            "is_visible": true,
+            "creation_source": "agent",
+            "_id": "6a8646cd2f85aef1723f20bd",
+            "id": "6a8646cd2f85aef1723f20bd",
+            "children": [],
+            "parent_id": "6a8646cd2f85aef1723f20b8"
+          }
+        ]
+      },
+      {
+        "short_id": "BJH-5KaO",
+        "title": "New Arrivals",
+        "link": "/collection/new-arrivals",
+        "parent_short_id": null,
+        "is_visible": true,
+        "creation_source": "agent",
+        "_id": "6a8646cd2f85aef1723f20be",
+        "id": "6a8646cd2f85aef1723f20be",
+        "children": []
+      },
+      {
+        "short_id": "UFb27V9q",
+        "title": "All Products",
+        "link": "/collection/all-products",
+        "parent_short_id": null,
+        "is_visible": true,
+        "creation_source": "agent",
+        "_id": "6a8646cd2f85aef1723f20bf",
+        "id": "6a8646cd2f85aef1723f20bf",
+        "children": []
+      },
+      {
+        "short_id": "oQvJGsnu",
+        "title": "About Us",
+        "link": "/featured/JViE_dhM9T",
+        "parent_short_id": null,
+        "is_visible": true,
+        "creation_source": "agent",
+        "_id": "6a8646cd2f85aef1723f20c0",
+        "id": "6a8646cd2f85aef1723f20c0",
+        "children": []
+      }
+    ],
+    "announcements": [],
+    "web_otf_enabled": true,
+    "push_for_online_payments": false,
+    "selected_website_theme": "cosmetics",
+    "exit_intent": {
+      "capture_field": "whatsapp_no"
+    },
+    "collections": [
+      {
+        "_id": "6a8645bfb301fd1fac91493d",
+        "title": "Festive Sarees",
+        "short_id": "C1evgDE9",
+        "url_suffix": "/Festive-Sarees/collection/C1evgDE9"
+      },
+      {
+        "_id": "6a8645bfb301fd1fac91491f",
+        "title": "Elegant Sarees",
+        "short_id": "HekkFOlM",
+        "url_suffix": "/Elegant-Sarees/collection/HekkFOlM"
+      },
+      {
+        "_id": "6a76ec528d17f041f20309bd",
+        "title": "Best Sellers",
+        "short_id": "U7-i_KAd",
+        "url_suffix": "/Best-Sellers/collection/U7-i_KAd"
+      },
+      {
+        "_id": "6a8645bfb301fd1fac9148d0",
+        "title": "Vibrant Drapes",
+        "short_id": "biFM6OlB",
+        "url_suffix": "/Vibrant-Drapes/collection/biFM6OlB"
+      },
+      {
+        "_id": "6a8645bfb301fd1fac9148e9",
+        "title": "Ethnic Sarees",
+        "short_id": "kf8pw6r4",
+        "url_suffix": "/Ethnic-Sarees/collection/kf8pw6r4"
+      },
+      {
+        "_id": "6a8645bfb301fd1fac914906",
+        "title": "Flowing Sarees",
+        "short_id": "lRInyWXh",
+        "url_suffix": "/Flowing-Sarees/collection/lRInyWXh"
+      },
+      {
+        "_id": "6a76ec528d17f041f20309b5",
+        "title": "Under 299",
+        "short_id": "lYDcbtAg",
+        "url_suffix": "/Under-299/collection/lYDcbtAg"
+      },
+      {
+        "_id": "6a76ec528d17f041f20309b6",
+        "title": "Under 499",
+        "short_id": "wUhCPZ-j",
+        "url_suffix": "/Under-499/collection/wUhCPZ-j"
+      },
+      {
+        "_id": "6a76ec528d17f041f20309b7",
+        "title": "Under 999",
+        "short_id": "yNDS98Kd",
+        "url_suffix": "/Under-999/collection/yNDS98Kd"
+      }
+    ],
+    "website_url": "shubhlagn.co.in",
+    "checkout_type": "cod_optimised",
+    "fb_analytics_settings": {
+      "events": {
+        "add_to_cart": {
+          "capi": true,
+          "pixel": true
+        },
+        "delayed_purchase": {
+          "capi": false
+        },
+        "delivered": {
+          "capi": false
+        },
+        "init_checkout": {
+          "capi": true,
+          "pixel": true
+        },
+        "purchase": {
+          "capi": true,
+          "pixel": true
+        },
+        "score_based_capi_trigger": {
+          "capi": false
+        },
+        "view_content": {
+          "capi": true,
+          "pixel": true
+        }
+      },
+      "fake_event_multiplier": 1,
+      "fake_event_volume_multiplier": 1,
+      "fake_events": false,
+      "is_rto_and_cancel_fake_event_enabled": false,
+      "rto_adjusted_marketing": {
+        "configure_score": 0.55,
+        "is_enabled": false,
+        "sd_rto_score_threshold": 0.4
+      },
+      "rto_and_cancel_fake_event_multiplier": -1,
+      "rto_and_cancel_fake_event_volume_multiplier": 1
+    },
+    "landmark_and_alt_phone": [
+      null
+    ],
+    "feature_settings": {
+      "add_to_bag": true,
+      "size_confirmation": true,
+      "capture_website_metrics": false,
+      "lowest_price_tag": true
+    },
+    "sale_event": {},
+    "app_announcement": {
+      "open_in_app_badge": false,
+      "open_in_app_strip": false
+    },
+    "url_redirect": [],
+    "product_quality_trust_markers": [
+      {
+        "label": "Lowest Price",
+        "icon_url": "https://cdn-image.blitzshopdeck.in/ShopdeckWebsiteAssets/tr:w-600,f-webp,fo-auto/product_quality_trustmarkers/LOWEST_PRICE.webp"
+      },
+      {
+        "label": "Next day dispatch",
+        "icon_url": "https://cdn-image.blitzshopdeck.in/ShopdeckWebsiteAssets/tr:w-600,f-webp,fo-auto/product_quality_trustmarkers/NEXT_DAY_DISPATCH.webp"
+      },
+      {
+        "label": "Superior Quality",
+        "icon_url": "https://cdn-image.blitzshopdeck.in/ShopdeckWebsiteAssets/tr:w-600,f-webp,fo-auto/product_quality_trustmarkers/SUPERIOR_QUALTIY_TRUSTBADGE.webp"
+      }
+    ],
+    "minimize_product_card_images": true,
+    "confetti_settings": {
+      "loop_count": 0,
+      "enabled": false,
+      "url": ""
+    },
+    "acko_verified": false,
+    "seo_configuration": {
+      "title": "Buy SHUBH LAGN products online at best prices on https://shubhlagn.co.in",
+      "description": "SHUBH LAGN offers premium shawls, dupattas, sarees, scarves and dress materials. Discover elegant textiles and tapestries for every occasion."
+    }
+  }
+}

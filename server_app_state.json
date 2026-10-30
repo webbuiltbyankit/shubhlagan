@@ -1,0 +1,3809 @@
+{
+  "initialData": {
+    "ssrInjection": {
+      "widgets": [
+        {
+          "short_id": "vctxy3_R5P",
+          "type": "code_snippet_widget",
+          "layout": "grid",
+          "template_settings": {
+            "sales_for_same_product": false,
+            "aov_enabled": false,
+            "is_mandatory": false,
+            "show_controls": false,
+            "loop_video": false,
+            "best_seller_days_range": 0,
+            "fit_to_container": "contain",
+            "mobile_view_row_count": 1,
+            "desktop_view_row_count": 1,
+            "variant": "portrait",
+            "show_icon": false,
+            "show_subtext": false,
+            "text_color": "black"
+          },
+          "sub_title": "",
+          "title": "",
+          "render_type": "csr",
+          "custom_style": {
+            "style_settings": []
+          }
+        },
+        {
+          "short_id": "XokqnPvTUA",
+          "type": "banner_cross_link_full",
+          "layout": "multiple",
+          "template_settings": {
+            "sales_for_same_product": false,
+            "aov_enabled": false,
+            "is_mandatory": false
+          },
+          "title": "HERO BANNER",
+          "custom_style": {
+            "style_settings": [],
+            "title_alignment": "center",
+            "background_color": "transparent",
+            "is_background_image_repeat": false,
+            "bottom_spacing": {}
+          },
+          "entities": [
+            {
+              "title": "",
+              "subtitle": "",
+              "cta_text": "",
+              "src_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,fo-auto/6a76ea1a0e4dca6722264569/template/1787213327676_0O93F2X79L_2026-08-20_1.png",
+              "link": "/Yellow-Fandy-Saree-For-Women/catalogue/jJTNtU7KDvBx/g8GimgmK",
+              "preview_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,q-50,bl-2,fo-auto/6a76ea1a0e4dca6722264569/template/1787213327676_0O93F2X79L_2026-08-20_1.png",
+              "type": "",
+              "fit_image": true,
+              "image_alignment": "",
+              "content_alignment": "left",
+              "creative_id": "",
+              "alt": "HERO_BANNER_undefined"
+            },
+            {
+              "title": "",
+              "subtitle": "",
+              "cta_text": "",
+              "src_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,fo-auto/6a76ea1a0e4dca6722264569/template/1787213387072_QDIVZ6LMJJ_2026-08-20_1.png",
+              "link": "/Cream-Fandy-Saree-For-Women/catalogue/r0N1SSXv9iJ3/04SzKfXU",
+              "preview_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,q-50,bl-2,fo-auto/6a76ea1a0e4dca6722264569/template/1787213387072_QDIVZ6LMJJ_2026-08-20_1.png",
+              "type": "",
+              "fit_image": true,
+              "image_alignment": "",
+              "content_alignment": "left",
+              "creative_id": "",
+              "alt": "HERO_BANNER_undefined"
+            },
+            {
+              "title": "",
+              "subtitle": "",
+              "cta_text": "",
+              "src_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,fo-auto/6a76ea1a0e4dca6722264569/template/1787213046562_UL1ZBCDZQ0_2026-08-20_3.png",
+              "link": "/Red-Fandy-Saree-For-Women/catalogue/ShtCwUphR-kE/YWzllk8L",
+              "preview_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,q-50,bl-2,fo-auto/6a76ea1a0e4dca6722264569/template/1787213046562_UL1ZBCDZQ0_2026-08-20_3.png",
+              "type": "",
+              "fit_image": true,
+              "image_alignment": "",
+              "content_alignment": "left",
+              "creative_id": "",
+              "alt": "HERO_BANNER_undefined"
+            }
+          ],
+          "background_image": "",
+          "theme_settings": {
+            "banner": {
+              "type": "banner",
+              "variant_short_id": "banner_cosmetics",
+              "settings": {
+                "fitImage": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "heroAspectRatio": {
+                  "type": "number",
+                  "value": 0.58
+                },
+                "show_title": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "show_subtitle": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "container_position": {
+                  "type": "string",
+                  "value": "bottom_left"
+                },
+                "cta_button": {
+                  "type": "button",
+                  "settings": {
+                    "variant": {
+                      "type": "Enum",
+                      "values": [
+                        "primary",
+                        "secondary",
+                        "tertiary",
+                        "accent"
+                      ],
+                      "value": "primary"
+                    },
+                    "size": {
+                      "type": "Enum",
+                      "values": [
+                        "small",
+                        "medium",
+                        "large"
+                      ],
+                      "value": "large"
+                    },
+                    "disabled": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "fullWidth": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "isTransparent": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "ellipsis": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "textTransform": {
+                      "type": "Enum",
+                      "values": [
+                        "uppercase",
+                        "capitalize",
+                        "lowercase",
+                        "none"
+                      ],
+                      "value": "none"
+                    },
+                    "iconLeading": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconTrailing": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconStart": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconEnd": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "animation": {
+                      "type": "animation",
+                      "settings": {
+                        "name": {
+                          "type": "Enum",
+                          "values": [
+                            "fade",
+                            "lift",
+                            "sink",
+                            "scale",
+                            "press",
+                            "glow",
+                            "outline",
+                            "brightness",
+                            "shine",
+                            "slideleft",
+                            "slideright",
+                            "slideup",
+                            "slidedown",
+                            "none"
+                          ],
+                          "value": "fade"
+                        },
+                        "duration": {
+                          "type": "number",
+                          "value": 200
+                        },
+                        "timingFunction": {
+                          "type": "Enum",
+                          "values": [
+                            "ease",
+                            "ease-in",
+                            "ease-out",
+                            "ease-in-out",
+                            "linear"
+                          ],
+                          "value": "ease-out"
+                        }
+                      }
+                    }
+                  }
+                },
+                "title": {
+                  "type": "text",
+                  "settings": {
+                    "variant": {
+                      "type": "Enum",
+                      "values": [
+                        "display-large",
+                        "display-medium",
+                        "display-small",
+                        "title-large",
+                        "title-medium",
+                        "title-small",
+                        "heading-xxl-large",
+                        "heading-xl-large",
+                        "heading-large",
+                        "heading-medium",
+                        "heading-small",
+                        "heading-x-small",
+                        "body-large",
+                        "body-medium",
+                        "body-small",
+                        "body-x-small",
+                        "label-large",
+                        "label-medium",
+                        "label-small",
+                        "label-x-small"
+                      ],
+                      "value": "body-medium"
+                    },
+                    "variantXs": {
+                      "type": "Enum",
+                      "values": [
+                        "display-large",
+                        "display-medium",
+                        "display-small",
+                        "title-large",
+                        "title-medium",
+                        "title-small",
+                        "heading-xxl-large",
+                        "heading-xl-large",
+                        "heading-large",
+                        "heading-medium",
+                        "heading-small",
+                        "heading-x-small",
+                        "body-large",
+                        "body-medium",
+                        "body-small",
+                        "body-x-small",
+                        "label-large",
+                        "label-medium",
+                        "label-small",
+                        "label-x-small"
+                      ],
+                      "value": "display-small"
+                    },
+                    "variantXL": {
+                      "type": "Enum",
+                      "values": [
+                        "display-large",
+                        "display-medium",
+                        "display-small",
+                        "title-large",
+                        "title-medium",
+                        "title-small",
+                        "heading-xxl-large",
+                        "heading-xl-large",
+                        "heading-large",
+                        "heading-medium",
+                        "heading-small",
+                        "heading-x-small",
+                        "body-large",
+                        "body-medium",
+                        "body-small",
+                        "body-x-small",
+                        "label-large",
+                        "label-medium",
+                        "label-small",
+                        "label-x-small"
+                      ],
+                      "value": "display-large"
+                    },
+                    "color": {
+                      "type": "string",
+                      "value": ""
+                    },
+                    "ellipsis": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "strikethrough": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "toUpperCase": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "capitalize": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "textUnderline": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "align": {
+                      "type": "Enum",
+                      "values": [
+                        "left",
+                        "right",
+                        "center"
+                      ],
+                      "value": "left"
+                    },
+                    "whiteSpace": {
+                      "type": "Enum",
+                      "values": [
+                        "break-spaces",
+                        "normal",
+                        "nowrap",
+                        "pre",
+                        "pre-line",
+                        "pre-wrap"
+                      ],
+                      "value": "normal"
+                    },
+                    "wordBreak": {
+                      "type": "string",
+                      "value": "break-word"
+                    },
+                    "fontStyle": {
+                      "type": "Enum",
+                      "values": [
+                        "italic",
+                        "oblique",
+                        "normal"
+                      ],
+                      "value": "normal"
+                    },
+                    "prefix": {
+                      "type": "string",
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "carousel": {
+              "type": "carousel",
+              "variant_short_id": "carousel_base",
+              "settings": {
+                "slidesToShow": {
+                  "type": "number",
+                  "value": 1
+                },
+                "slidesToScroll": {
+                  "type": "number",
+                  "value": 1
+                },
+                "autoplay": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "autoplaySpeed": {
+                  "type": "number",
+                  "value": 4000
+                },
+                "infinite": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "speed": {
+                  "type": "number",
+                  "value": 500
+                },
+                "fade": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "centerMode": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "pauseOnHover": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "draggable": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "cascadeHeight": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "responsive": {
+                  "type": "object",
+                  "settings": {
+                    "xs": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "sm": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "md": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "lg": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "xl": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "xxl": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "indicator": {
+                  "type": "object",
+                  "settings": {
+                    "variant": {
+                      "type": "enum",
+                      "values": [
+                        "dots",
+                        "paging"
+                      ],
+                      "value": "dots"
+                    },
+                    "placement": {
+                      "type": "enum",
+                      "values": [
+                        "bottom_left",
+                        "bottom_center",
+                        "bottom_right"
+                      ],
+                      "value": "bottom_center"
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": true
+                    },
+                    "paging": {
+                      "type": "text",
+                      "settings": {
+                        "variant": {
+                          "type": "Enum",
+                          "values": [
+                            "display-large",
+                            "display-medium",
+                            "display-small",
+                            "title-large",
+                            "title-medium",
+                            "title-small",
+                            "heading-xxl-large",
+                            "heading-xl-large",
+                            "heading-large",
+                            "heading-medium",
+                            "heading-small",
+                            "heading-x-small",
+                            "body-large",
+                            "body-medium",
+                            "body-small",
+                            "body-x-small",
+                            "label-large",
+                            "label-medium",
+                            "label-small",
+                            "label-x-small"
+                          ],
+                          "value": "body-medium"
+                        },
+                        "variantXs": {
+                          "type": "Enum",
+                          "values": [
+                            "display-large",
+                            "display-medium",
+                            "display-small",
+                            "title-large",
+                            "title-medium",
+                            "title-small",
+                            "heading-xxl-large",
+                            "heading-xl-large",
+                            "heading-large",
+                            "heading-medium",
+                            "heading-small",
+                            "heading-x-small",
+                            "body-large",
+                            "body-medium",
+                            "body-small",
+                            "body-x-small",
+                            "label-large",
+                            "label-medium",
+                            "label-small",
+                            "label-x-small"
+                          ],
+                          "value": "body-small"
+                        },
+                        "variantXL": {
+                          "type": "Enum",
+                          "values": [
+                            "display-large",
+                            "display-medium",
+                            "display-small",
+                            "title-large",
+                            "title-medium",
+                            "title-small",
+                            "heading-xxl-large",
+                            "heading-xl-large",
+                            "heading-large",
+                            "heading-medium",
+                            "heading-small",
+                            "heading-x-small",
+                            "body-large",
+                            "body-medium",
+                            "body-small",
+                            "body-x-small",
+                            "label-large",
+                            "label-medium",
+                            "label-small",
+                            "label-x-small"
+                          ],
+                          "value": "body-large"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": "var(--text-icon-primary)"
+                        },
+                        "ellipsis": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "strikethrough": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "toUpperCase": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "capitalize": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "textUnderline": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "align": {
+                          "type": "Enum",
+                          "values": [
+                            "left",
+                            "right",
+                            "center"
+                          ],
+                          "value": "left"
+                        },
+                        "whiteSpace": {
+                          "type": "Enum",
+                          "values": [
+                            "break-spaces",
+                            "normal",
+                            "nowrap",
+                            "pre",
+                            "pre-line",
+                            "pre-wrap"
+                          ],
+                          "value": "normal"
+                        },
+                        "wordBreak": {
+                          "type": "string",
+                          "value": "break-word"
+                        },
+                        "fontStyle": {
+                          "type": "Enum",
+                          "values": [
+                            "italic",
+                            "oblique",
+                            "normal"
+                          ],
+                          "value": "normal"
+                        },
+                        "prefix": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    }
+                  }
+                },
+                "arrows": {
+                  "type": "object",
+                  "settings": {
+                    "placement": {
+                      "type": "enum",
+                      "values": [
+                        "top_left",
+                        "top_center",
+                        "top_right",
+                        "bottom_left",
+                        "bottom_center",
+                        "bottom_right",
+                        "middle"
+                      ],
+                      "value": "middle"
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": true
+                    },
+                    "left_arrow": {
+                      "type": "button",
+                      "settings": {
+                        "variant": {
+                          "type": "enum",
+                          "values": [
+                            "primary",
+                            "secondary",
+                            "tertiary"
+                          ],
+                          "value": "secondary"
+                        },
+                        "size": {
+                          "type": "enum",
+                          "values": [
+                            "small",
+                            "medium",
+                            "large"
+                          ],
+                          "value": "small"
+                        },
+                        "disabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "fullWidth": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "isTransparent": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "ellipsis": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "textTransform": {
+                          "type": "Enum",
+                          "values": [
+                            "uppercase",
+                            "capitalize",
+                            "lowercase",
+                            "none"
+                          ],
+                          "value": "none"
+                        },
+                        "iconLeading": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": "caret_icon"
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconTrailing": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconStart": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconEnd": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "animation": {
+                          "type": "animation",
+                          "settings": {
+                            "name": {
+                              "type": "Enum",
+                              "values": [
+                                "fade",
+                                "lift",
+                                "sink",
+                                "scale",
+                                "press",
+                                "glow",
+                                "outline",
+                                "brightness",
+                                "shine",
+                                "slideleft",
+                                "slideright",
+                                "slideup",
+                                "slidedown",
+                                "none"
+                              ],
+                              "value": "fade"
+                            },
+                            "duration": {
+                              "type": "number",
+                              "value": 200
+                            },
+                            "timingFunction": {
+                              "type": "Enum",
+                              "values": [
+                                "ease",
+                                "ease-in",
+                                "ease-out",
+                                "ease-in-out",
+                                "linear"
+                              ],
+                              "value": "ease-out"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right_arrow": {
+                      "type": "button",
+                      "settings": {
+                        "variant": {
+                          "type": "enum",
+                          "values": [
+                            "primary",
+                            "secondary",
+                            "tertiary"
+                          ],
+                          "value": "secondary"
+                        },
+                        "size": {
+                          "type": "enum",
+                          "values": [
+                            "small",
+                            "medium",
+                            "large"
+                          ],
+                          "value": "small"
+                        },
+                        "disabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "fullWidth": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "isTransparent": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "ellipsis": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "textTransform": {
+                          "type": "Enum",
+                          "values": [
+                            "uppercase",
+                            "capitalize",
+                            "lowercase",
+                            "none"
+                          ],
+                          "value": "none"
+                        },
+                        "iconLeading": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": "caret_icon"
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "180deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconTrailing": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconStart": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconEnd": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "animation": {
+                          "type": "animation",
+                          "settings": {
+                            "name": {
+                              "type": "Enum",
+                              "values": [
+                                "fade",
+                                "lift",
+                                "sink",
+                                "scale",
+                                "press",
+                                "glow",
+                                "outline",
+                                "brightness",
+                                "shine",
+                                "slideleft",
+                                "slideright",
+                                "slideup",
+                                "slidedown",
+                                "none"
+                              ],
+                              "value": "fade"
+                            },
+                            "duration": {
+                              "type": "number",
+                              "value": 200
+                            },
+                            "timingFunction": {
+                              "type": "Enum",
+                              "values": [
+                                "ease",
+                                "ease-in",
+                                "ease-out",
+                                "ease-in-out",
+                                "linear"
+                              ],
+                              "value": "ease-out"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "indicator_enabled": {
+                  "type": "boolean",
+                  "value": true
+                }
+              }
+            },
+            "widget_title": {
+              "type": "widget_title",
+              "variant_short_id": "widget_title_base",
+              "settings": {
+                "variant": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-medium"
+                },
+                "variantXs": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "title-medium"
+                },
+                "variantXL": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "display-large"
+                },
+                "color": {
+                  "type": "string",
+                  "value": "var(--text-icon-primary)"
+                },
+                "ellipsis": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "strikethrough": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "toUpperCase": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "capitalize": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "textUnderline": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "align": {
+                  "value": "center"
+                },
+                "whiteSpace": {
+                  "type": "Enum",
+                  "values": [
+                    "break-spaces",
+                    "normal",
+                    "nowrap",
+                    "pre",
+                    "pre-line",
+                    "pre-wrap"
+                  ],
+                  "value": "normal"
+                },
+                "wordBreak": {
+                  "type": "string",
+                  "value": "break-word"
+                },
+                "fontStyle": {
+                  "type": "Enum",
+                  "values": [
+                    "italic",
+                    "oblique",
+                    "normal"
+                  ],
+                  "value": "normal"
+                },
+                "prefix": {
+                  "type": "string",
+                  "value": ""
+                }
+              }
+            },
+            "view_all": {
+              "type": "view_all",
+              "variant_short_id": "view_all_base",
+              "settings": {
+                "placement": {
+                  "type": "string",
+                  "value": "top-right"
+                },
+                "element": {
+                  "type": "button",
+                  "settings": {
+                    "variant": {
+                      "type": "Enum",
+                      "values": [
+                        "primary",
+                        "secondary",
+                        "tertiary",
+                        "accent"
+                      ],
+                      "value": "primary"
+                    },
+                    "size": {
+                      "type": "Enum",
+                      "values": [
+                        "small",
+                        "medium",
+                        "large"
+                      ],
+                      "value": "medium"
+                    },
+                    "disabled": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "fullWidth": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "textTransform": {
+                      "type": "Enum",
+                      "values": [
+                        "uppercase",
+                        "capitalize",
+                        "lowercase",
+                        "none"
+                      ],
+                      "value": "capitalize"
+                    },
+                    "iconLeading": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconTrailing": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconStart": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconEnd": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "isTransparent": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "ellipsis": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "animation": {
+                      "type": "animation",
+                      "settings": {
+                        "name": {
+                          "type": "Enum",
+                          "values": [
+                            "fade",
+                            "lift",
+                            "sink",
+                            "scale",
+                            "press",
+                            "glow",
+                            "outline",
+                            "brightness",
+                            "shine",
+                            "slideleft",
+                            "slideright",
+                            "slideup",
+                            "slidedown",
+                            "none"
+                          ],
+                          "value": "fade"
+                        },
+                        "duration": {
+                          "type": "number",
+                          "value": 200
+                        },
+                        "timingFunction": {
+                          "type": "Enum",
+                          "values": [
+                            "ease",
+                            "ease-in",
+                            "ease-out",
+                            "ease-in-out",
+                            "linear"
+                          ],
+                          "value": "ease-out"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "overline": {
+              "type": "overline",
+              "variant_short_id": "overline_base",
+              "settings": {
+                "variant": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-medium"
+                },
+                "variantXs": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "label-small"
+                },
+                "variantXL": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "label-small"
+                },
+                "color": {
+                  "type": "string",
+                  "value": "var(--text-icon-tertiary)"
+                },
+                "ellipsis": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "strikethrough": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "toUpperCase": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "capitalize": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "textUnderline": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "align": {
+                  "type": "Enum",
+                  "values": [
+                    "left",
+                    "right",
+                    "center"
+                  ],
+                  "value": "left"
+                },
+                "whiteSpace": {
+                  "type": "Enum",
+                  "values": [
+                    "break-spaces",
+                    "normal",
+                    "nowrap",
+                    "pre",
+                    "pre-line",
+                    "pre-wrap"
+                  ],
+                  "value": "normal"
+                },
+                "wordBreak": {
+                  "type": "string",
+                  "value": "break-word"
+                },
+                "fontStyle": {
+                  "type": "Enum",
+                  "values": [
+                    "italic",
+                    "oblique",
+                    "normal"
+                  ],
+                  "value": "normal"
+                },
+                "prefix": {
+                  "type": "string",
+                  "value": ""
+                }
+              }
+            },
+            "subtitle": {
+              "type": "subtitle",
+              "variant_short_id": "subtitle_base",
+              "settings": {
+                "variant": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-medium"
+                },
+                "variantXs": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-small"
+                },
+                "variantXL": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-small"
+                },
+                "color": {
+                  "type": "string",
+                  "value": "var(--text-icon-secondary)"
+                },
+                "ellipsis": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "strikethrough": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "toUpperCase": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "capitalize": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "textUnderline": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "align": {
+                  "type": "Enum",
+                  "values": [
+                    "left",
+                    "right",
+                    "center"
+                  ],
+                  "value": "left"
+                },
+                "whiteSpace": {
+                  "type": "Enum",
+                  "values": [
+                    "break-spaces",
+                    "normal",
+                    "nowrap",
+                    "pre",
+                    "pre-line",
+                    "pre-wrap"
+                  ],
+                  "value": "normal"
+                },
+                "wordBreak": {
+                  "type": "string",
+                  "value": "break-word"
+                },
+                "fontStyle": {
+                  "type": "Enum",
+                  "values": [
+                    "italic",
+                    "oblique",
+                    "normal"
+                  ],
+                  "value": "normal"
+                },
+                "prefix": {
+                  "type": "string",
+                  "value": ""
+                }
+              }
+            },
+            "is_full_width": {
+              "type": "boolean",
+              "value": true
+            },
+            "background_src_url": {
+              "type": "string",
+              "value": ""
+            },
+            "is_background_image_repeat": {
+              "type": "boolean",
+              "value": false
+            },
+            "type": "banner_cross_link_full",
+            "background_repeat": {
+              "value": false
+            },
+            "background_image": {
+              "value": ""
+            },
+            "background_color": {
+              "value": "transparent"
+            }
+          }
+        },
+        {
+          "short_id": "Z6WTOE0qsX",
+          "type": "code_snippet_widget",
+          "layout": "grid",
+          "template_settings": {
+            "sales_for_same_product": false,
+            "aov_enabled": false,
+            "is_mandatory": false,
+            "show_controls": false,
+            "loop_video": false,
+            "best_seller_days_range": 0,
+            "fit_to_container": "contain",
+            "mobile_view_row_count": 1,
+            "desktop_view_row_count": 1,
+            "variant": "portrait",
+            "show_icon": false,
+            "show_subtext": false,
+            "text_color": "black"
+          },
+          "sub_title": "",
+          "title": "",
+          "render_type": "csr",
+          "custom_style": {
+            "style_settings": []
+          }
+        },
+        {
+          "short_id": "lgRAWABp2K",
+          "type": "banner_cross_link_full",
+          "layout": "multiple",
+          "template_settings": {
+            "sales_for_same_product": false,
+            "aov_enabled": false,
+            "is_mandatory": false
+          },
+          "title": "TREND BANNER",
+          "custom_style": {
+            "style_settings": [],
+            "title_alignment": "center",
+            "background_color": "transparent",
+            "is_background_image_repeat": false,
+            "bottom_spacing": {}
+          },
+          "entities": [
+            {
+              "title": "",
+              "subtitle": "",
+              "cta_text": "",
+              "src_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,fo-auto/6a76ea1a0e4dca6722264569/template/1787213859754_PH3ITLG0H0_2026-08-20_1.png",
+              "link": "/Multicolor-Chinon-Saree-For-Women/catalogue/FLS3JyJrqrsB/vVPRFlSf",
+              "preview_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,q-50,bl-2,fo-auto/6a76ea1a0e4dca6722264569/template/1787213859754_PH3ITLG0H0_2026-08-20_1.png",
+              "type": "",
+              "fit_image": true,
+              "image_alignment": "",
+              "content_alignment": "left",
+              "creative_id": "",
+              "alt": "TREND_BANNER_undefined"
+            }
+          ],
+          "background_image": "",
+          "theme_settings": {
+            "banner": {
+              "type": "banner",
+              "variant_short_id": "banner_cosmetics",
+              "settings": {
+                "fitImage": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "heroAspectRatio": {
+                  "type": "number",
+                  "value": 0.58
+                },
+                "show_title": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "show_subtitle": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "container_position": {
+                  "type": "string",
+                  "value": "bottom_left"
+                },
+                "cta_button": {
+                  "type": "button",
+                  "settings": {
+                    "variant": {
+                      "type": "Enum",
+                      "values": [
+                        "primary",
+                        "secondary",
+                        "tertiary",
+                        "accent"
+                      ],
+                      "value": "primary"
+                    },
+                    "size": {
+                      "type": "Enum",
+                      "values": [
+                        "small",
+                        "medium",
+                        "large"
+                      ],
+                      "value": "large"
+                    },
+                    "disabled": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "fullWidth": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "isTransparent": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "ellipsis": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "textTransform": {
+                      "type": "Enum",
+                      "values": [
+                        "uppercase",
+                        "capitalize",
+                        "lowercase",
+                        "none"
+                      ],
+                      "value": "none"
+                    },
+                    "iconLeading": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconTrailing": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconStart": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconEnd": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "animation": {
+                      "type": "animation",
+                      "settings": {
+                        "name": {
+                          "type": "Enum",
+                          "values": [
+                            "fade",
+                            "lift",
+                            "sink",
+                            "scale",
+                            "press",
+                            "glow",
+                            "outline",
+                            "brightness",
+                            "shine",
+                            "slideleft",
+                            "slideright",
+                            "slideup",
+                            "slidedown",
+                            "none"
+                          ],
+                          "value": "fade"
+                        },
+                        "duration": {
+                          "type": "number",
+                          "value": 200
+                        },
+                        "timingFunction": {
+                          "type": "Enum",
+                          "values": [
+                            "ease",
+                            "ease-in",
+                            "ease-out",
+                            "ease-in-out",
+                            "linear"
+                          ],
+                          "value": "ease-out"
+                        }
+                      }
+                    }
+                  }
+                },
+                "title": {
+                  "type": "text",
+                  "settings": {
+                    "variant": {
+                      "type": "Enum",
+                      "values": [
+                        "display-large",
+                        "display-medium",
+                        "display-small",
+                        "title-large",
+                        "title-medium",
+                        "title-small",
+                        "heading-xxl-large",
+                        "heading-xl-large",
+                        "heading-large",
+                        "heading-medium",
+                        "heading-small",
+                        "heading-x-small",
+                        "body-large",
+                        "body-medium",
+                        "body-small",
+                        "body-x-small",
+                        "label-large",
+                        "label-medium",
+                        "label-small",
+                        "label-x-small"
+                      ],
+                      "value": "body-medium"
+                    },
+                    "variantXs": {
+                      "type": "Enum",
+                      "values": [
+                        "display-large",
+                        "display-medium",
+                        "display-small",
+                        "title-large",
+                        "title-medium",
+                        "title-small",
+                        "heading-xxl-large",
+                        "heading-xl-large",
+                        "heading-large",
+                        "heading-medium",
+                        "heading-small",
+                        "heading-x-small",
+                        "body-large",
+                        "body-medium",
+                        "body-small",
+                        "body-x-small",
+                        "label-large",
+                        "label-medium",
+                        "label-small",
+                        "label-x-small"
+                      ],
+                      "value": "display-small"
+                    },
+                    "variantXL": {
+                      "type": "Enum",
+                      "values": [
+                        "display-large",
+                        "display-medium",
+                        "display-small",
+                        "title-large",
+                        "title-medium",
+                        "title-small",
+                        "heading-xxl-large",
+                        "heading-xl-large",
+                        "heading-large",
+                        "heading-medium",
+                        "heading-small",
+                        "heading-x-small",
+                        "body-large",
+                        "body-medium",
+                        "body-small",
+                        "body-x-small",
+                        "label-large",
+                        "label-medium",
+                        "label-small",
+                        "label-x-small"
+                      ],
+                      "value": "display-large"
+                    },
+                    "color": {
+                      "type": "string",
+                      "value": ""
+                    },
+                    "ellipsis": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "strikethrough": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "toUpperCase": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "capitalize": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "textUnderline": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "align": {
+                      "type": "Enum",
+                      "values": [
+                        "left",
+                        "right",
+                        "center"
+                      ],
+                      "value": "left"
+                    },
+                    "whiteSpace": {
+                      "type": "Enum",
+                      "values": [
+                        "break-spaces",
+                        "normal",
+                        "nowrap",
+                        "pre",
+                        "pre-line",
+                        "pre-wrap"
+                      ],
+                      "value": "normal"
+                    },
+                    "wordBreak": {
+                      "type": "string",
+                      "value": "break-word"
+                    },
+                    "fontStyle": {
+                      "type": "Enum",
+                      "values": [
+                        "italic",
+                        "oblique",
+                        "normal"
+                      ],
+                      "value": "normal"
+                    },
+                    "prefix": {
+                      "type": "string",
+                      "value": ""
+                    }
+                  }
+                }
+              }
+            },
+            "carousel": {
+              "type": "carousel",
+              "variant_short_id": "carousel_base",
+              "settings": {
+                "slidesToShow": {
+                  "type": "number",
+                  "value": 1
+                },
+                "slidesToScroll": {
+                  "type": "number",
+                  "value": 1
+                },
+                "autoplay": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "autoplaySpeed": {
+                  "type": "number",
+                  "value": 4000
+                },
+                "infinite": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "speed": {
+                  "type": "number",
+                  "value": 500
+                },
+                "fade": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "centerMode": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "pauseOnHover": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "draggable": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "cascadeHeight": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "responsive": {
+                  "type": "object",
+                  "settings": {
+                    "xs": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "sm": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "md": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "lg": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "xl": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    },
+                    "xxl": {
+                      "type": "object",
+                      "settings": {
+                        "slidesToShow": {
+                          "type": "number",
+                          "value": 1
+                        },
+                        "arrow_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        },
+                        "indicator_enabled": {
+                          "type": "boolean",
+                          "value": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "indicator": {
+                  "type": "object",
+                  "settings": {
+                    "variant": {
+                      "type": "enum",
+                      "values": [
+                        "dots",
+                        "paging"
+                      ],
+                      "value": "dots"
+                    },
+                    "placement": {
+                      "type": "enum",
+                      "values": [
+                        "bottom_left",
+                        "bottom_center",
+                        "bottom_right"
+                      ],
+                      "value": "bottom_center"
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": true
+                    },
+                    "paging": {
+                      "type": "text",
+                      "settings": {
+                        "variant": {
+                          "type": "Enum",
+                          "values": [
+                            "display-large",
+                            "display-medium",
+                            "display-small",
+                            "title-large",
+                            "title-medium",
+                            "title-small",
+                            "heading-xxl-large",
+                            "heading-xl-large",
+                            "heading-large",
+                            "heading-medium",
+                            "heading-small",
+                            "heading-x-small",
+                            "body-large",
+                            "body-medium",
+                            "body-small",
+                            "body-x-small",
+                            "label-large",
+                            "label-medium",
+                            "label-small",
+                            "label-x-small"
+                          ],
+                          "value": "body-medium"
+                        },
+                        "variantXs": {
+                          "type": "Enum",
+                          "values": [
+                            "display-large",
+                            "display-medium",
+                            "display-small",
+                            "title-large",
+                            "title-medium",
+                            "title-small",
+                            "heading-xxl-large",
+                            "heading-xl-large",
+                            "heading-large",
+                            "heading-medium",
+                            "heading-small",
+                            "heading-x-small",
+                            "body-large",
+                            "body-medium",
+                            "body-small",
+                            "body-x-small",
+                            "label-large",
+                            "label-medium",
+                            "label-small",
+                            "label-x-small"
+                          ],
+                          "value": "body-small"
+                        },
+                        "variantXL": {
+                          "type": "Enum",
+                          "values": [
+                            "display-large",
+                            "display-medium",
+                            "display-small",
+                            "title-large",
+                            "title-medium",
+                            "title-small",
+                            "heading-xxl-large",
+                            "heading-xl-large",
+                            "heading-large",
+                            "heading-medium",
+                            "heading-small",
+                            "heading-x-small",
+                            "body-large",
+                            "body-medium",
+                            "body-small",
+                            "body-x-small",
+                            "label-large",
+                            "label-medium",
+                            "label-small",
+                            "label-x-small"
+                          ],
+                          "value": "body-large"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": "var(--text-icon-primary)"
+                        },
+                        "ellipsis": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "strikethrough": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "toUpperCase": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "capitalize": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "textUnderline": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "align": {
+                          "type": "Enum",
+                          "values": [
+                            "left",
+                            "right",
+                            "center"
+                          ],
+                          "value": "left"
+                        },
+                        "whiteSpace": {
+                          "type": "Enum",
+                          "values": [
+                            "break-spaces",
+                            "normal",
+                            "nowrap",
+                            "pre",
+                            "pre-line",
+                            "pre-wrap"
+                          ],
+                          "value": "normal"
+                        },
+                        "wordBreak": {
+                          "type": "string",
+                          "value": "break-word"
+                        },
+                        "fontStyle": {
+                          "type": "Enum",
+                          "values": [
+                            "italic",
+                            "oblique",
+                            "normal"
+                          ],
+                          "value": "normal"
+                        },
+                        "prefix": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    }
+                  }
+                },
+                "arrows": {
+                  "type": "object",
+                  "settings": {
+                    "placement": {
+                      "type": "enum",
+                      "values": [
+                        "top_left",
+                        "top_center",
+                        "top_right",
+                        "bottom_left",
+                        "bottom_center",
+                        "bottom_right",
+                        "middle"
+                      ],
+                      "value": "middle"
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": true
+                    },
+                    "left_arrow": {
+                      "type": "button",
+                      "settings": {
+                        "variant": {
+                          "type": "enum",
+                          "values": [
+                            "primary",
+                            "secondary",
+                            "tertiary"
+                          ],
+                          "value": "secondary"
+                        },
+                        "size": {
+                          "type": "enum",
+                          "values": [
+                            "small",
+                            "medium",
+                            "large"
+                          ],
+                          "value": "small"
+                        },
+                        "disabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "fullWidth": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "isTransparent": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "ellipsis": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "textTransform": {
+                          "type": "Enum",
+                          "values": [
+                            "uppercase",
+                            "capitalize",
+                            "lowercase",
+                            "none"
+                          ],
+                          "value": "none"
+                        },
+                        "iconLeading": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": "caret_icon"
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconTrailing": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconStart": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconEnd": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "animation": {
+                          "type": "animation",
+                          "settings": {
+                            "name": {
+                              "type": "Enum",
+                              "values": [
+                                "fade",
+                                "lift",
+                                "sink",
+                                "scale",
+                                "press",
+                                "glow",
+                                "outline",
+                                "brightness",
+                                "shine",
+                                "slideleft",
+                                "slideright",
+                                "slideup",
+                                "slidedown",
+                                "none"
+                              ],
+                              "value": "fade"
+                            },
+                            "duration": {
+                              "type": "number",
+                              "value": 200
+                            },
+                            "timingFunction": {
+                              "type": "Enum",
+                              "values": [
+                                "ease",
+                                "ease-in",
+                                "ease-out",
+                                "ease-in-out",
+                                "linear"
+                              ],
+                              "value": "ease-out"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right_arrow": {
+                      "type": "button",
+                      "settings": {
+                        "variant": {
+                          "type": "enum",
+                          "values": [
+                            "primary",
+                            "secondary",
+                            "tertiary"
+                          ],
+                          "value": "secondary"
+                        },
+                        "size": {
+                          "type": "enum",
+                          "values": [
+                            "small",
+                            "medium",
+                            "large"
+                          ],
+                          "value": "small"
+                        },
+                        "disabled": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "fullWidth": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "isTransparent": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "ellipsis": {
+                          "type": "boolean",
+                          "value": false
+                        },
+                        "textTransform": {
+                          "type": "Enum",
+                          "values": [
+                            "uppercase",
+                            "capitalize",
+                            "lowercase",
+                            "none"
+                          ],
+                          "value": "none"
+                        },
+                        "iconLeading": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": "caret_icon"
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "180deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconTrailing": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconStart": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "iconEnd": {
+                          "type": "icon",
+                          "settings": {
+                            "iconName": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "height": {
+                              "type": "string",
+                              "value": "var(--icon-size-s)"
+                            },
+                            "rotate": {
+                              "type": "string",
+                              "value": "0deg"
+                            },
+                            "color": {
+                              "type": "string",
+                              "value": ""
+                            },
+                            "alt": {
+                              "type": "string",
+                              "value": ""
+                            }
+                          }
+                        },
+                        "animation": {
+                          "type": "animation",
+                          "settings": {
+                            "name": {
+                              "type": "Enum",
+                              "values": [
+                                "fade",
+                                "lift",
+                                "sink",
+                                "scale",
+                                "press",
+                                "glow",
+                                "outline",
+                                "brightness",
+                                "shine",
+                                "slideleft",
+                                "slideright",
+                                "slideup",
+                                "slidedown",
+                                "none"
+                              ],
+                              "value": "fade"
+                            },
+                            "duration": {
+                              "type": "number",
+                              "value": 200
+                            },
+                            "timingFunction": {
+                              "type": "Enum",
+                              "values": [
+                                "ease",
+                                "ease-in",
+                                "ease-out",
+                                "ease-in-out",
+                                "linear"
+                              ],
+                              "value": "ease-out"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "indicator_enabled": {
+                  "type": "boolean",
+                  "value": true
+                }
+              }
+            },
+            "widget_title": {
+              "type": "widget_title",
+              "variant_short_id": "widget_title_base",
+              "settings": {
+                "variant": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-medium"
+                },
+                "variantXs": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "title-medium"
+                },
+                "variantXL": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "display-large"
+                },
+                "color": {
+                  "type": "string",
+                  "value": "var(--text-icon-primary)"
+                },
+                "ellipsis": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "strikethrough": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "toUpperCase": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "capitalize": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "textUnderline": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "align": {
+                  "value": "center"
+                },
+                "whiteSpace": {
+                  "type": "Enum",
+                  "values": [
+                    "break-spaces",
+                    "normal",
+                    "nowrap",
+                    "pre",
+                    "pre-line",
+                    "pre-wrap"
+                  ],
+                  "value": "normal"
+                },
+                "wordBreak": {
+                  "type": "string",
+                  "value": "break-word"
+                },
+                "fontStyle": {
+                  "type": "Enum",
+                  "values": [
+                    "italic",
+                    "oblique",
+                    "normal"
+                  ],
+                  "value": "normal"
+                },
+                "prefix": {
+                  "type": "string",
+                  "value": ""
+                }
+              }
+            },
+            "view_all": {
+              "type": "view_all",
+              "variant_short_id": "view_all_base",
+              "settings": {
+                "placement": {
+                  "type": "string",
+                  "value": "top-right"
+                },
+                "element": {
+                  "type": "button",
+                  "settings": {
+                    "variant": {
+                      "type": "Enum",
+                      "values": [
+                        "primary",
+                        "secondary",
+                        "tertiary",
+                        "accent"
+                      ],
+                      "value": "primary"
+                    },
+                    "size": {
+                      "type": "Enum",
+                      "values": [
+                        "small",
+                        "medium",
+                        "large"
+                      ],
+                      "value": "medium"
+                    },
+                    "disabled": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "fullWidth": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "textTransform": {
+                      "type": "Enum",
+                      "values": [
+                        "uppercase",
+                        "capitalize",
+                        "lowercase",
+                        "none"
+                      ],
+                      "value": "capitalize"
+                    },
+                    "iconLeading": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconTrailing": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconStart": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "iconEnd": {
+                      "type": "icon",
+                      "settings": {
+                        "iconName": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "width": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "height": {
+                          "type": "string",
+                          "value": "var(--icon-size-s)"
+                        },
+                        "rotate": {
+                          "type": "string",
+                          "value": "0deg"
+                        },
+                        "color": {
+                          "type": "string",
+                          "value": ""
+                        },
+                        "alt": {
+                          "type": "string",
+                          "value": ""
+                        }
+                      }
+                    },
+                    "isTransparent": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "ellipsis": {
+                      "type": "boolean",
+                      "value": false
+                    },
+                    "animation": {
+                      "type": "animation",
+                      "settings": {
+                        "name": {
+                          "type": "Enum",
+                          "values": [
+                            "fade",
+                            "lift",
+                            "sink",
+                            "scale",
+                            "press",
+                            "glow",
+                            "outline",
+                            "brightness",
+                            "shine",
+                            "slideleft",
+                            "slideright",
+                            "slideup",
+                            "slidedown",
+                            "none"
+                          ],
+                          "value": "fade"
+                        },
+                        "duration": {
+                          "type": "number",
+                          "value": 200
+                        },
+                        "timingFunction": {
+                          "type": "Enum",
+                          "values": [
+                            "ease",
+                            "ease-in",
+                            "ease-out",
+                            "ease-in-out",
+                            "linear"
+                          ],
+                          "value": "ease-out"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "overline": {
+              "type": "overline",
+              "variant_short_id": "overline_base",
+              "settings": {
+                "variant": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-medium"
+                },
+                "variantXs": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "label-small"
+                },
+                "variantXL": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "label-small"
+                },
+                "color": {
+                  "type": "string",
+                  "value": "var(--text-icon-tertiary)"
+                },
+                "ellipsis": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "strikethrough": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "toUpperCase": {
+                  "type": "boolean",
+                  "value": true
+                },
+                "capitalize": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "textUnderline": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "align": {
+                  "type": "Enum",
+                  "values": [
+                    "left",
+                    "right",
+                    "center"
+                  ],
+                  "value": "left"
+                },
+                "whiteSpace": {
+                  "type": "Enum",
+                  "values": [
+                    "break-spaces",
+                    "normal",
+                    "nowrap",
+                    "pre",
+                    "pre-line",
+                    "pre-wrap"
+                  ],
+                  "value": "normal"
+                },
+                "wordBreak": {
+                  "type": "string",
+                  "value": "break-word"
+                },
+                "fontStyle": {
+                  "type": "Enum",
+                  "values": [
+                    "italic",
+                    "oblique",
+                    "normal"
+                  ],
+                  "value": "normal"
+                },
+                "prefix": {
+                  "type": "string",
+                  "value": ""
+                }
+              }
+            },
+            "subtitle": {
+              "type": "subtitle",
+              "variant_short_id": "subtitle_base",
+              "settings": {
+                "variant": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-medium"
+                },
+                "variantXs": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-small"
+                },
+                "variantXL": {
+                  "type": "Enum",
+                  "values": [
+                    "display-large",
+                    "display-medium",
+                    "display-small",
+                    "title-large",
+                    "title-medium",
+                    "title-small",
+                    "heading-xxl-large",
+                    "heading-xl-large",
+                    "heading-large",
+                    "heading-medium",
+                    "heading-small",
+                    "heading-x-small",
+                    "body-large",
+                    "body-medium",
+                    "body-small",
+                    "body-x-small",
+                    "label-large",
+                    "label-medium",
+                    "label-small",
+                    "label-x-small"
+                  ],
+                  "value": "body-small"
+                },
+                "color": {
+                  "type": "string",
+                  "value": "var(--text-icon-secondary)"
+                },
+                "ellipsis": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "strikethrough": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "toUpperCase": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "capitalize": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "textUnderline": {
+                  "type": "boolean",
+                  "value": false
+                },
+                "align": {
+                  "type": "Enum",
+                  "values": [
+                    "left",
+                    "right",
+                    "center"
+                  ],
+                  "value": "left"
+                },
+                "whiteSpace": {
+                  "type": "Enum",
+                  "values": [
+                    "break-spaces",
+                    "normal",
+                    "nowrap",
+                    "pre",
+                    "pre-line",
+                    "pre-wrap"
+                  ],
+                  "value": "normal"
+                },
+                "wordBreak": {
+                  "type": "string",
+                  "value": "break-word"
+                },
+                "fontStyle": {
+                  "type": "Enum",
+                  "values": [
+                    "italic",
+                    "oblique",
+                    "normal"
+                  ],
+                  "value": "normal"
+                },
+                "prefix": {
+                  "type": "string",
+                  "value": ""
+                }
+              }
+            },
+            "is_full_width": {
+              "type": "boolean",
+              "value": true
+            },
+            "background_src_url": {
+              "type": "string",
+              "value": ""
+            },
+            "is_background_image_repeat": {
+              "type": "boolean",
+              "value": false
+            },
+            "type": "banner_cross_link_full",
+            "background_repeat": {
+              "value": false
+            },
+            "background_image": {
+              "value": ""
+            },
+            "background_color": {
+              "value": "transparent"
+            }
+          }
+        },
+        {
+          "short_id": "4UZsxQG0T2",
+          "type": "code_snippet_widget",
+          "layout": "grid",
+          "template_settings": {
+            "sales_for_same_product": false,
+            "aov_enabled": false,
+            "is_mandatory": false
+          },
+          "sub_title": "",
+          "title": "",
+          "render_type": "csr",
+          "custom_style": {
+            "style_settings": []
+          }
+        }
+      ],
+      "meta": {
+        "page_no": 1,
+        "has_more": true
+      }
+    }
+  },
+  "afterData": {
+    "scrollToTop": {
+      "current": true
+    }
+  }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "categoryId": "CAT-FANDY",
+    "name": "Fandy Sarees",
+    "slug": "fandy-sarees",
+    "productCount": 5,
+    "productIds": [
+      "SHL-0001",
+      "SHL-0002",
+      "SHL-0003",
+      "SHL-0006",
+      "SHL-0009",
+      "SHL-0010",
+      "SHL-0016"
+    ],
+    "coverImage": "images/collections/fandy_sarees_cover.jpg",
+    "fabricType": "Textured Structured Fandy Fabric",
+    "priceRange": "\u20b91,899 \u2013 \u20b93,999",
+    "description": "Signature textured Fandy fabric sarees featuring structured elegance, embroidered borders, and bold contrast drapes.",
+    "confidence": "high"
+  },
+  {
+    "categoryId": "CAT-GEORGETTE",
+    "name": "Georgette Sarees",
+    "slug": "georgette-sarees",
+    "productCount": 5,
+    "productIds": [
+      "SHL-0005",
+      "SHL-0007",
+      "SHL-0008",
+      "SHL-0017"
+    ],
+    "coverImage": "images/collections/georgette_sarees_cover.jpg",
+    "fabricType": "Fine Featherlight Georgette",
+    "priceRange": "\u20b91,799 \u2013 \u20b92,999",
+    "description": "Fluid, featherlight drapes with vibrant multicolor prints, delicate sequin flourishes, and soft draping.",
+    "confidence": "high"
+  },
+  {
+    "categoryId": "CAT-SILK",
+    "name": "Silk Sarees (HO Silk)",
+    "slug": "silk-sarees",
+    "productCount": 3,
+    "productIds": [
+      "SHL-0011",
+      "SHL-0013",
+      "SHL-0014"
+    ],
+    "coverImage": "images/collections/silk_sarees_cover.jpg",
+    "fabricType": "Refined HO Silk Fabric",
+    "priceRange": "\u20b92,299 \u2013 \u20b92,899",
+    "description": "Quality HO silk fabric sarees offering smooth surfaces, refined embroidery, and graceful posture.",
+    "confidence": "high"
+  },
+  {
+    "categoryId": "CAT-CHIFFON",
+    "name": "Chiffon Sarees",
+    "slug": "chiffon-sarees",
+    "productCount": 1,
+    "productIds": [
+      "SHL-0012"
+    ],
+    "coverImage": "images/collections/chiffon_sarees_cover.jpg",
+    "fabricType": "Lightweight Sheer Chiffon",
+    "priceRange": "\u20b93,799",
+    "description": "Graceful, sheer drape with soft, smooth feel that enhances festive celebrations.",
+    "confidence": "high"
+  },
+  {
+    "categoryId": "CAT-CHINON",
+    "name": "Chinon Sarees",
+    "slug": "chinon-sarees",
+    "productCount": 1,
+    "productIds": [
+      "SHL-0004"
+    ],
+    "coverImage": "images/collections/chinon_sarees_cover.jpg",
+    "fabricType": "Smooth Lightweight Chinon",
+    "priceRange": "\u20b93,699",
+    "description": "Soft, lightweight drape moving gracefully with every step.",
+    "confidence": "high"
+  },
+  {
+    "categoryId": "CAT-CREPE",
+    "name": "Crepe Sarees",
+    "slug": "crepe-sarees",
+    "productCount": 1,
+    "productIds": [
+      "SHL-0015"
+    ],
+    "coverImage": "images/collections/crepe_sarees_cover.jpg",
+    "fabricType": "Textured Poly Crepe",
+    "priceRange": "\u20b92,199",
+    "description": "Refined textured surface that drapes beautifully and holds its shape.",
+    "confidence": "high"
+  }
+]

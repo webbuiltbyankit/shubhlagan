@@ -66,11 +66,16 @@ export const CollectionPage: React.FC = () => {
           </div>
 
           <div style={{ height: '280px', overflow: 'hidden', backgroundColor: '#F5EFEB' }}>
-            <img
-              src={category.coverImage}
-              alt={category.title}
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-            />
+            <picture style={{ display: 'block', width: '100%', height: '100%' }}>
+              <source srcSet={category.coverImage.replace(/\.jpg$/, '.webp')} type="image/webp" />
+              <img
+                src={category.coverImage}
+                alt={category.title}
+                loading="eager"
+                decoding="async"
+                style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+            </picture>
           </div>
         </div>
 

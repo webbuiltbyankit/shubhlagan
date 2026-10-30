@@ -37,18 +37,28 @@ export const About: React.FC = () => {
           }}
         >
           <div style={{ borderRadius: '8px', overflow: 'hidden', border: '1px solid var(--color-border)', backgroundColor: '#F5EFEB' }}>
-            <img
-              src={getAssetUrl('/images/products/SHL-0010_main.jpg')}
-              alt="Rich Red embroidered saree drape"
-              style={{ width: '100%', height: '420px', objectFit: 'cover' }}
-            />
+            <picture style={{ display: 'block', width: '100%', height: '420px' }}>
+              <source srcSet={getAssetUrl('/images/products/SHL-0010_main.webp')} type="image/webp" />
+              <img
+                src={getAssetUrl('/images/products/SHL-0010_main.jpg')}
+                alt="Rich Red embroidered saree drape"
+                loading="lazy"
+                decoding="async"
+                style={{ display: 'block', width: '100%', height: '420px', objectFit: 'cover' }}
+              />
+            </picture>
           </div>
           <div style={{ borderRadius: '8px', overflow: 'hidden', border: '1px solid var(--color-border)', backgroundColor: '#F5EFEB' }}>
-            <img
-              src={getAssetUrl('/images/products/SHL-0001_main.jpg')}
-              alt="Vibrant Yellow festive saree drape"
-              style={{ width: '100%', height: '420px', objectFit: 'cover' }}
-            />
+            <picture style={{ display: 'block', width: '100%', height: '420px' }}>
+              <source srcSet={getAssetUrl('/images/products/SHL-0001_main.webp')} type="image/webp" />
+              <img
+                src={getAssetUrl('/images/products/SHL-0001_main.jpg')}
+                alt="Vibrant Yellow festive saree drape"
+                loading="lazy"
+                decoding="async"
+                style={{ display: 'block', width: '100%', height: '420px', objectFit: 'cover' }}
+              />
+            </picture>
           </div>
         </div>
 

@@ -73,11 +73,18 @@ export const MobileDrawer: React.FC<MobileDrawerProps> = ({ isOpen, onClose, onO
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <img
-              src={getAssetUrl('/brand/profile_logo_900.jpg')}
-              alt="Shubhlagn Logo"
-              style={{ width: '36px', height: '36px', borderRadius: '4px', objectFit: 'cover' }}
-            />
+            <picture style={{ display: 'block', width: '36px', height: '36px' }}>
+              <source srcSet={getAssetUrl('/brand/profile_logo_900.webp')} type="image/webp" />
+              <img
+                src={getAssetUrl('/brand/profile_logo_900.jpg')}
+                alt="Shubhlagn Logo"
+                loading="lazy"
+                decoding="async"
+                width="36"
+                height="36"
+                style={{ width: '36px', height: '36px', borderRadius: '4px', objectFit: 'cover' }}
+              />
+            </picture>
             <div>
               <div style={{ fontFamily: 'var(--font-serif)', fontSize: '1.1rem', fontWeight: 600, color: 'var(--color-oxblood)', lineHeight: 1.1 }}>
                 {contentConfig.brandName}

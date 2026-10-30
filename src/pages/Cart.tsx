@@ -98,6 +98,8 @@ export const Cart: React.FC = () => {
                       <img
                         src={product.thumbnail}
                         alt={product.name}
+                        loading="lazy"
+                        decoding="async"
                         style={{
                           width: '90px',
                           height: '112px',

@@ -60,16 +60,26 @@ export const Lookbook: React.FC = () => {
                 }}
               >
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2px', backgroundColor: '#F0E9E3' }}>
-                  <img
-                    src={p.images[0]}
-                    alt={`${p.name} full drape`}
-                    style={{ width: '100%', height: '280px', objectFit: 'cover' }}
-                  />
-                  <img
-                    src={p.images[1]}
-                    alt={`${p.name} texture detail`}
-                    style={{ width: '100%', height: '280px', objectFit: 'cover' }}
-                  />
+                  <picture style={{ display: 'block', width: '100%', height: '280px' }}>
+                    <source srcSet={p.images[0].replace(/\.jpg$/, '.webp')} type="image/webp" />
+                    <img
+                      src={p.images[0]}
+                      alt={`${p.name} full drape`}
+                      loading="lazy"
+                      decoding="async"
+                      style={{ display: 'block', width: '100%', height: '280px', objectFit: 'cover' }}
+                    />
+                  </picture>
+                  <picture style={{ display: 'block', width: '100%', height: '280px' }}>
+                    <source srcSet={p.images[1].replace(/\.jpg$/, '.webp')} type="image/webp" />
+                    <img
+                      src={p.images[1]}
+                      alt={`${p.name} texture detail`}
+                      loading="lazy"
+                      decoding="async"
+                      style={{ display: 'block', width: '100%', height: '280px', objectFit: 'cover' }}
+                    />
+                  </picture>
                 </div>
 
                 <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>

@@ -269,6 +269,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
                           <img
                             src={p.thumbnail}
                             alt={p.name}
+                            loading="lazy"
+                            decoding="async"
                             style={{ width: '48px', height: '60px', objectFit: 'cover', borderRadius: '2px' }}
                           />
                           <div style={{ flex: 1 }}>

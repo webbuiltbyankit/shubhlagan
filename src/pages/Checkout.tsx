@@ -475,6 +475,8 @@ export const Checkout: React.FC = () => {
                         <img
                           src={product.thumbnail}
                           alt={product.name}
+                          loading="lazy"
+                          decoding="async"
                           style={{ width: '48px', height: '60px', objectFit: 'cover', borderRadius: '2px', backgroundColor: '#F5EFEB' }}
                         />
                         <div style={{ flex: 1, minWidth: 0 }}>

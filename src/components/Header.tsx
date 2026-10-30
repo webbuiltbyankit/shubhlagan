@@ -112,18 +112,24 @@ export const Header: React.FC = () => {
                 textDecoration: 'none'
               }}
             >
-              <img
-                src={getAssetUrl('/brand/profile_logo_900.jpg')}
-                alt="Shubhlagn Sarees Identity"
-                className="header-brand-logo"
-                style={{
-                  width: '42px',
-                  height: '42px',
-                  borderRadius: '3px',
-                  objectFit: 'cover',
-                  border: '1px solid var(--color-border-subtle)'
-                }}
-              />
+              <picture style={{ display: 'block', width: '42px', height: '42px' }}>
+                <source srcSet={getAssetUrl('/brand/profile_logo_900.webp')} type="image/webp" />
+                <img
+                  src={getAssetUrl('/brand/profile_logo_900.jpg')}
+                  alt="Shubhlagn Sarees Identity"
+                  className="header-brand-logo"
+                  width="42"
+                  height="42"
+                  decoding="async"
+                  style={{
+                    width: '42px',
+                    height: '42px',
+                    borderRadius: '3px',
+                    objectFit: 'cover',
+                    border: '1px solid var(--color-border-subtle)'
+                  }}
+                />
+              </picture>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <span
                   style={{
@@ -249,6 +255,8 @@ export const Header: React.FC = () => {
                       <img
                         src={cat.coverImage}
                         alt={cat.title}
+                        loading="lazy"
+                        decoding="async"
                         style={{ width: '48px', height: '48px', objectFit: 'cover', borderRadius: '3px' }}
                       />
                       <div>

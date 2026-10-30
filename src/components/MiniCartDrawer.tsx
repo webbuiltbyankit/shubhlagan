@@ -161,6 +161,8 @@ export const MiniCartDrawer: React.FC = () => {
                       <img
                         src={product.thumbnail}
                         alt={product.name}
+                        loading="lazy"
+                        decoding="async"
                         style={{
                           width: '74px',
                           height: '92px',

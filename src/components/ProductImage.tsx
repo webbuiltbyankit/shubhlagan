@@ -20,16 +20,17 @@ export const ProductImage: React.FC<ProductImageProps> = ({
   aspectRatio = '4 / 5',
   priority = false
 }) => {
-  const [hasError, setHasError] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [hasPrimaryError, setHasPrimaryError] = useState(false);
+  const [isPrimaryLoaded, setIsPrimaryLoaded] = useState(false);
   const [shouldLoadSecondary, setShouldLoadSecondary] = useState(false);
+  const [isSecondaryLoaded, setIsSecondaryLoaded] = useState(false);
 
-  // Lazy-mount secondary image only after user hovers/interacts, preventing 34 concurrent image downloads
+  // Lazy-mount secondary view only when user hovers or interacts
   useEffect(() => {
-    if (isHovered && !shouldLoadSecondary) {
+    if (isHovered && secondarySrc && !shouldLoadSecondary) {
       setShouldLoadSecondary(true);
     }
-  }, [isHovered, shouldLoadSecondary]);
+  }, [isHovered, secondarySrc, shouldLoadSecondary]);
 
   return (
     <div
@@ -43,7 +44,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({
         borderRadius: '2px'
       }}
     >
-      {hasError ? (
+      {hasPrimaryError ? (
         <div
           style={{
             width: '100%',
@@ -65,7 +66,8 @@ export const ProductImage: React.FC<ProductImageProps> = ({
         </div>
       ) : (
         <>
-          <picture style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
+          {/* Base Primary Saree Photo (Always visible, never blanks out) */}
+          <picture style={{ display: 'block', width: '100%', height: '100%', position: 'absolute', inset: 0 }}>
             <source srcSet={src.replace(/\.jpg$/, '.webp')} type="image/webp" />
             <img
               src={src}
@@ -74,37 +76,43 @@ export const ProductImage: React.FC<ProductImageProps> = ({
               // @ts-expect-error fetchpriority attribute is supported in modern browsers
               fetchpriority={priority ? 'high' : 'low'}
               decoding="async"
-              onLoad={() => setIsLoaded(true)}
-              onError={() => setHasError(true)}
+              onLoad={() => setIsPrimaryLoaded(true)}
+              onError={() => setHasPrimaryError(true)}
               style={{
+                display: 'block',
                 position: 'absolute',
                 inset: 0,
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
                 objectPosition: 'center top',
-                transition: 'opacity 220ms ease, transform 300ms ease',
-                opacity: isLoaded ? (isHovered && secondarySrc && shouldLoadSecondary ? 0 : 1) : 0.85
+                transition: 'opacity 250ms ease, transform 300ms ease',
+                opacity: isPrimaryLoaded ? 1 : 0.85
               }}
             />
           </picture>
+
+          {/* Alternate Saree Photo (Gracefully layers on top when hovered and ready) */}
           {secondarySrc && shouldLoadSecondary && (
-            <picture style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
+            <picture style={{ display: 'block', width: '100%', height: '100%', position: 'absolute', inset: 0 }}>
               <source srcSet={secondarySrc.replace(/\.jpg$/, '.webp')} type="image/webp" />
               <img
                 src={secondarySrc}
                 alt={`${alt} alternate view`}
                 loading="lazy"
                 decoding="async"
+                onLoad={() => setIsSecondaryLoaded(true)}
+                onError={() => setIsSecondaryLoaded(false)}
                 style={{
+                  display: 'block',
                   position: 'absolute',
                   inset: 0,
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
                   objectPosition: 'center top',
-                  transition: 'opacity 220ms ease, transform 300ms ease',
-                  opacity: isHovered ? 1 : 0,
+                  transition: 'opacity 250ms ease, transform 300ms ease',
+                  opacity: isHovered && isSecondaryLoaded ? 1 : 0,
                   pointerEvents: 'none'
                 }}
               />
@@ -115,5 +123,6 @@ export const ProductImage: React.FC<ProductImageProps> = ({
     </div>
   );
 };
+
 
 

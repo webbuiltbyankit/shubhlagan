@@ -38,11 +38,18 @@ export const Footer: React.FC = () => {
           {/* Brand Intro Column */}
           <div style={{ maxWidth: '320px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
-              <img
-                src={getAssetUrl('/brand/profile_logo_900.jpg')}
-                alt="Shubhlagn Sarees"
-                style={{ width: '40px', height: '40px', borderRadius: '4px', objectFit: 'cover' }}
-              />
+              <picture style={{ display: 'block', width: '40px', height: '40px' }}>
+                <source srcSet={getAssetUrl('/brand/profile_logo_900.webp')} type="image/webp" />
+                <img
+                  src={getAssetUrl('/brand/profile_logo_900.jpg')}
+                  alt="Shubhlagn Sarees"
+                  loading="lazy"
+                  decoding="async"
+                  width="40"
+                  height="40"
+                  style={{ width: '40px', height: '40px', borderRadius: '4px', objectFit: 'cover' }}
+                />
+              </picture>
               <span style={{ fontFamily: 'var(--font-serif)', fontSize: '1.4rem', fontWeight: 600, color: 'var(--color-oxblood)' }}>
                 {contentConfig.brandName}
               </span>

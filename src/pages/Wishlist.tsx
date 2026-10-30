@@ -130,11 +130,16 @@ export const Wishlist: React.FC = () => {
                 }}
               >
                 <Link to={`/product/${product.slug}`} style={{ display: 'block', aspectRatio: '4 / 5', backgroundColor: '#F5EFEB' }}>
-                  <img
-                    src={product.images[0]}
-                    alt={product.name}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  />
+                  <picture style={{ display: 'block', width: '100%', height: '100%' }}>
+                    <source srcSet={product.images[0].replace(/\.jpg$/, '.webp')} type="image/webp" />
+                    <img
+                      src={product.images[0]}
+                      alt={product.name}
+                      loading="lazy"
+                      decoding="async"
+                      style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                  </picture>
                 </Link>
 
                 <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between', gap: '12px' }}>

@@ -161,7 +161,7 @@ export const Home: React.FC = () => {
                 }}
               >
                 <Link to="/product/yellow-fandy-saree-for-women-shl-0001" style={{ display: 'block', position: 'relative', overflow: 'hidden', borderRadius: '4px' }}>
-                  <picture>
+                  <picture style={{ display: 'block', width: '100%', height: '100%' }}>
                     <source srcSet={getAssetUrl('/images/products/SHL-0001_main.webp')} type="image/webp" />
                     <img
                       src={getAssetUrl('/images/products/SHL-0001_main.jpg')}
@@ -171,6 +171,7 @@ export const Home: React.FC = () => {
                       fetchpriority="high"
                       decoding="async"
                       style={{
+                        display: 'block',
                         width: '100%',
                         maxHeight: '520px',
                         objectFit: 'cover',
@@ -291,7 +292,7 @@ export const Home: React.FC = () => {
                 className="category-card"
               >
                 <div style={{ aspectRatio: '4 / 3', width: '100%', overflow: 'hidden', backgroundColor: '#F5EFEB' }}>
-                  <picture>
+                  <picture style={{ display: 'block', width: '100%', height: '100%' }}>
                     <source srcSet={cat.coverImage.replace(/\.jpg$/, '.webp')} type="image/webp" />
                     <img
                       src={cat.coverImage}
@@ -299,6 +300,7 @@ export const Home: React.FC = () => {
                       loading="lazy"
                       decoding="async"
                       style={{
+                        display: 'block',
                         width: '100%',
                         height: '100%',
                         objectFit: 'cover',
@@ -407,11 +409,16 @@ export const Home: React.FC = () => {
                   backgroundColor: '#F5EFEB'
                 }}
               >
-                <img
-                  src={getAssetUrl('/images/products/SHL-0004_gallery_02.jpg')}
-                  alt="Fine textile embroidery close-up view"
-                  style={{ width: '100%', height: '480px', objectFit: 'cover' }}
-                />
+                <picture style={{ display: 'block', width: '100%', height: '480px' }}>
+                  <source srcSet={getAssetUrl('/images/products/SHL-0004_gallery_02.webp')} type="image/webp" />
+                  <img
+                    src={getAssetUrl('/images/products/SHL-0004_gallery_02.jpg')}
+                    alt="Fine textile embroidery close-up view"
+                    loading="lazy"
+                    decoding="async"
+                    style={{ display: 'block', width: '100%', height: '480px', objectFit: 'cover' }}
+                  />
+                </picture>
                 <div
                   style={{
                     position: 'absolute',
@@ -536,16 +543,26 @@ export const Home: React.FC = () => {
               </div>
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
-                <img
-                  src={spotlightProduct.images[0]}
-                  alt={`${spotlightProduct.name} drape`}
-                  style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px' }}
-                />
-                <img
-                  src={spotlightProduct.images[1]}
-                  alt={`${spotlightProduct.name} detail view`}
-                  style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px' }}
-                />
+                <picture style={{ display: 'block', width: '100%', height: '300px' }}>
+                  <source srcSet={spotlightProduct.images[0].replace(/\.jpg$/, '.webp')} type="image/webp" />
+                  <img
+                    src={spotlightProduct.images[0]}
+                    alt={`${spotlightProduct.name} drape`}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ display: 'block', width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px' }}
+                  />
+                </picture>
+                <picture style={{ display: 'block', width: '100%', height: '300px' }}>
+                  <source srcSet={spotlightProduct.images[1].replace(/\.jpg$/, '.webp')} type="image/webp" />
+                  <img
+                    src={spotlightProduct.images[1]}
+                    alt={`${spotlightProduct.name} detail view`}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ display: 'block', width: '100%', height: '300px', objectFit: 'cover', borderRadius: '4px' }}
+                  />
+                </picture>
               </div>
             </div>
           </div>

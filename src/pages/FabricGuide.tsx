@@ -79,11 +79,16 @@ export const FabricGuide: React.FC = () => {
                 }}
               >
                 <div style={{ height: '260px', overflow: 'hidden', backgroundColor: '#F5EFEB' }}>
-                  <img
-                    src={cat.coverImage}
-                    alt={cat.title}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  />
+                  <picture style={{ display: 'block', width: '100%', height: '100%' }}>
+                    <source srcSet={cat.coverImage.replace(/\.jpg$/, '.webp')} type="image/webp" />
+                    <img
+                      src={cat.coverImage}
+                      alt={cat.title}
+                      loading="lazy"
+                      decoding="async"
+                      style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                  </picture>
                 </div>
 
                 <div style={{ padding: '28px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
